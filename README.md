@@ -72,13 +72,12 @@ python transcribe.py path/to/sample.wav --model models/whisper-medium-en-vi-acce
 │   └── whisper-medium-en-vi-accent/
 ├── reports/                # Evaluation benchmarks, WER reports, and qualitative samples
 ├── runs/                   # Checkpoints, LoRA adapters, & TensorBoard logs
-├── scripts/                # Zero-shot baseline benchmarking scripts
-│   └── run_baseline_benchmarks.py
 ├── common.py               # Shared data collator, dataset loader, and text normalizer
 ├── prepare_data.py         # Audio resampling (16kHz), chunking, & manifest generation
 ├── train_lora.py           # PEFT / LoRA fine-tuning engine
 ├── merge_lora.py           # LoRA-to-FP16 weight merging utility
 ├── evaluate_wer.py         # WER & CER benchmark evaluation suite
+├── run_baseline_benchmarks.py # Zero-shot baseline evaluation across accents
 ├── train_all_accents.py    # Multi-accent end-to-end orchestration pipeline
 ├── transcribe.py           # Standalone CLI inference entrypoint
 ├── requirements.txt        # Python package dependencies
