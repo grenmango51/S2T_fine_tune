@@ -1,0 +1,2463 @@
+{
+  "tag": "finetuned_medium_en_lora",
+  "model": "models/whisper-medium-en-vi-accent",
+  "timestamp": "2026-09-16T08:09:30.416888",
+  "splits": {
+    "test": {
+      "split": "test",
+      "n_utts": 228,
+      "decode_time_s": 21.12,
+      "wer": 11.42,
+      "cer": 6.05,
+      "speaker_results": {
+        "HQTV": {
+          "wer": 13.39,
+          "cer": 6.87,
+          "n_utts": 57
+        },
+        "PNV": {
+          "wer": 5.31,
+          "cer": 2.71,
+          "n_utts": 57
+        },
+        "THV": {
+          "wer": 10.24,
+          "cer": 5.88,
+          "n_utts": 57
+        },
+        "TLV": {
+          "wer": 16.73,
+          "cer": 8.74,
+          "n_utts": 57
+        }
+      },
+      "gender_results": {
+        "M (HQTV+TLV)": {
+          "wer": 15.06,
+          "cer": 7.8,
+          "n_utts": 114
+        },
+        "F (PNV+THV)": {
+          "wer": 7.78,
+          "cer": 4.29,
+          "n_utts": 114
+        }
+      },
+      "samples": [
+        {
+          "utt_id": "HQTV_arctic_a0013",
+          "speaker": "HQTV",
+          "ref_raw": "He was a head shorter than his companion of almost delicate physique",
+          "hyp_raw": "He was a head shorter than his companion of almost delicate physique",
+          "ref_norm": "he was a head shorter than his companion of almost delicate physique",
+          "hyp_norm": "he was a head shorter than his companion of almost delicate physique",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0018",
+          "speaker": "HQTV",
+          "ref_raw": "There was a change now",
+          "hyp_raw": "There was a change now",
+          "ref_norm": "there was a change now",
+          "hyp_norm": "there was a change now",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0023",
+          "speaker": "HQTV",
+          "ref_raw": "A combination of Canadian capital quickly organized and petitioned for the same privileges",
+          "hyp_raw": "A combination of Canadian Capital Weekly organized a petition for the same privilege",
+          "ref_norm": "a combination of canadian capital quickly organized and petitioned for the same privileges",
+          "hyp_norm": "a combination of canadian capital weekly organized a petition for the same privilege",
+          "sample_wer": 0.3076923076923077,
+          "sample_cer": 0.1
+        },
+        {
+          "utt_id": "HQTV_arctic_a0034",
+          "speaker": "HQTV",
+          "ref_raw": "Men of Selden's stamp don't stop at women and children",
+          "hyp_raw": "Men of southern stamp don't stop at women and children",
+          "ref_norm": "men of selden is stamp do not stop at women and children",
+          "hyp_norm": "men of southern stamp do not stop at women and children",
+          "sample_wer": 0.16666666666666666,
+          "sample_cer": 0.14285714285714285
+        },
+        {
+          "utt_id": "HQTV_arctic_a0038",
+          "speaker": "HQTV",
+          "ref_raw": "We'll have to watch our chances",
+          "hyp_raw": "We'll have to watch our chances",
+          "ref_norm": "we will have to watch our chances",
+          "hyp_norm": "we will have to watch our chances",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0049",
+          "speaker": "HQTV",
+          "ref_raw": "Gregson was asleep when he reentered the cabin",
+          "hyp_raw": "Gregson was asleep when he reentered the cabin",
+          "ref_norm": "gregson was asleep when he reentered the cabin",
+          "hyp_norm": "gregson was asleep when he reentered the cabin",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0050",
+          "speaker": "HQTV",
+          "ref_raw": "In spite of their absurdity the words affected Philip curiously",
+          "hyp_raw": "Inspired of their absurdity the words affected Philip curiously",
+          "ref_norm": "in spite of their absurdity the words affected philip curiously",
+          "hyp_norm": "inspired of their absurdity the words affected philip curiously",
+          "sample_wer": 0.2,
+          "sample_cer": 0.047619047619047616
+        },
+        {
+          "utt_id": "HQTV_arctic_a0090",
+          "speaker": "HQTV",
+          "ref_raw": "The singing voice approached rapidly",
+          "hyp_raw": "The singing voice approached rapidly",
+          "ref_norm": "the singing voice approached rapidly",
+          "hyp_norm": "the singing voice approached rapidly",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0093",
+          "speaker": "HQTV",
+          "ref_raw": "For a full minute he crouched and listened",
+          "hyp_raw": "For a full minute he scratched and listened",
+          "ref_norm": "for a full minute he crouched and listened",
+          "hyp_norm": "for a full minute he scratched and listened",
+          "sample_wer": 0.125,
+          "sample_cer": 0.07142857142857142
+        },
+        {
+          "utt_id": "HQTV_arctic_a0108",
+          "speaker": "HQTV",
+          "ref_raw": "He waded into the edge of the water and began scrubbing himself",
+          "hyp_raw": "He warded into the edge of the water began scrubbing himself",
+          "ref_norm": "he waded into the edge of the water and began scrubbing himself",
+          "hyp_norm": "he warded into the edge of the water began scrubbing himself",
+          "sample_wer": 0.16666666666666666,
+          "sample_cer": 0.07936507936507936
+        },
+        {
+          "utt_id": "HQTV_arctic_a0150",
+          "speaker": "HQTV",
+          "ref_raw": "Goodbye Pierre he shouted",
+          "hyp_raw": "Goodbye Pierre he shouted",
+          "ref_norm": "goodbye pierre he shouted",
+          "hyp_norm": "goodbye pierre he shouted",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0158",
+          "speaker": "HQTV",
+          "ref_raw": "Does that look good",
+          "hyp_raw": "The dust looked good",
+          "ref_norm": "does that look good",
+          "hyp_norm": "the dust looked good",
+          "sample_wer": 0.75,
+          "sample_cer": 0.42105263157894735
+        },
+        {
+          "utt_id": "HQTV_arctic_a0165",
+          "speaker": "HQTV",
+          "ref_raw": "They are to attack your camp tomorrow night",
+          "hyp_raw": "They are to attack your camp tomorrow night",
+          "ref_norm": "they are to attack your camp tomorrow night",
+          "hyp_norm": "they are to attack your camp tomorrow night",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0201",
+          "speaker": "HQTV",
+          "ref_raw": "He cried and swung the club wildly",
+          "hyp_raw": "He cried and swung the club wildly",
+          "ref_norm": "he cried and swung the club wildly",
+          "hyp_norm": "he cried and swung the club wildly",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0214",
+          "speaker": "HQTV",
+          "ref_raw": "Besides he was paid one case of tobacco per head",
+          "hyp_raw": "Besides he was paid one case of tobacco per head",
+          "ref_norm": "besides he was paid one case of tobacco per head",
+          "hyp_norm": "besides he was paid one case of tobacco per head",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0262",
+          "speaker": "HQTV",
+          "ref_raw": "They wouldn't be sweeping a big vessel like the Martha",
+          "hyp_raw": "They wouldn't be sweeping a big vessel like the Martha",
+          "ref_norm": "they would not be sweeping a big vessel like the martha",
+          "hyp_norm": "they would not be sweeping a big vessel like the martha",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0278",
+          "speaker": "HQTV",
+          "ref_raw": "It would give me nervous prostration",
+          "hyp_raw": "It would give me nervous prostration",
+          "ref_norm": "it would give me nervous prostration",
+          "hyp_norm": "it would give me nervous prostration",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0283",
+          "speaker": "HQTV",
+          "ref_raw": "The woman in you is only incidental accidental and irrelevant",
+          "hyp_raw": "The human induce is only incidental accidental and irrelevant",
+          "ref_norm": "the woman in you is only incidental accidental and irrelevant",
+          "hyp_norm": "the human induce is only incidental accidental and irrelevant",
+          "sample_wer": 0.3,
+          "sample_cer": 0.09836065573770492
+        },
+        {
+          "utt_id": "HQTV_arctic_a0366",
+          "speaker": "HQTV",
+          "ref_raw": "A wildly exciting time was his during the week preceding Thursday the eighteenth",
+          "hyp_raw": "A wildly exciting time was here during the week preceding Thursday the eighteenth",
+          "ref_norm": "a wildly exciting time was his during the week preceding thursday the 18th",
+          "hyp_norm": "a wildly exciting time was here during the week preceding thursday the 18th",
+          "sample_wer": 0.07692307692307693,
+          "sample_cer": 0.04054054054054054
+        },
+        {
+          "utt_id": "HQTV_arctic_a0404",
+          "speaker": "HQTV",
+          "ref_raw": "Perrault found one with head buried in the grub box",
+          "hyp_raw": "Hero found one his head buried in the grub box",
+          "ref_norm": "perrault found one with head buried in the grub box",
+          "hyp_norm": "hero found one his head buried in the grub box",
+          "sample_wer": 0.2,
+          "sample_cer": 0.17647058823529413
+        },
+        {
+          "utt_id": "HQTV_arctic_a0424",
+          "speaker": "HQTV",
+          "ref_raw": "Obviously it was a disease that could be contracted by contact",
+          "hyp_raw": "Obviously it was a disease that could be contracted by contact",
+          "ref_norm": "obviously it was a disease that could be contracted by contact",
+          "hyp_norm": "obviously it was a disease that could be contracted by contact",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0429",
+          "speaker": "HQTV",
+          "ref_raw": "Quick was the disappointment in his face yet smiling was the acquiescence",
+          "hyp_raw": "Quick was the disappointment in his face yet smiling was the accusation",
+          "ref_norm": "quick was the disappointment in his face yet smiling was the acquiescence",
+          "hyp_norm": "quick was the disappointment in his face yet smiling was the accusation",
+          "sample_wer": 0.08333333333333333,
+          "sample_cer": 0.1095890410958904
+        },
+        {
+          "utt_id": "HQTV_arctic_a0455",
+          "speaker": "HQTV",
+          "ref_raw": "I obeyed and a minute or two later they stood before him",
+          "hyp_raw": "I obeyed and a minute or two later they stood before him",
+          "ref_norm": "i obeyed and a minute or 2 later they stood before him",
+          "hyp_norm": "i obeyed and a minute or 2 later they stood before him",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0509",
+          "speaker": "HQTV",
+          "ref_raw": "Yet in accordance with Ernest's test of truth it worked",
+          "hyp_raw": "Yet in according with earnest test of truth it is work",
+          "ref_norm": "yet in accordance with ernest is test of truth it worked",
+          "hyp_norm": "yet in according with earnest test of truth it is work",
+          "sample_wer": 0.45454545454545453,
+          "sample_cer": 0.21428571428571427
+        },
+        {
+          "utt_id": "HQTV_arctic_a0511",
+          "speaker": "HQTV",
+          "ref_raw": "There is more behind this than a mere university ideal",
+          "hyp_raw": "There is more behind this than a mere university ideal",
+          "ref_norm": "there is more behind this than a mere university ideal",
+          "hyp_norm": "there is more behind this than a mere university ideal",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0512",
+          "speaker": "HQTV",
+          "ref_raw": "No it is a palace wherein there are many servants",
+          "hyp_raw": "And know it is the police wherein there are many servants",
+          "ref_norm": "no it is a palace wherein there are many servants",
+          "hyp_norm": "and know it is the police wherein there are many servants",
+          "sample_wer": 0.4,
+          "sample_cer": 0.22448979591836735
+        },
+        {
+          "utt_id": "HQTV_arctic_a0529",
+          "speaker": "HQTV",
+          "ref_raw": "As I say he had tapped the message very rapidly",
+          "hyp_raw": "As I say he had topped the message very rapidly",
+          "ref_norm": "as i say he had tapped the message very rapidly",
+          "hyp_norm": "as i say he had topped the message very rapidly",
+          "sample_wer": 0.1,
+          "sample_cer": 0.02127659574468085
+        },
+        {
+          "utt_id": "HQTV_arctic_a0540",
+          "speaker": "HQTV",
+          "ref_raw": "Yea so are all the lesser animals of today clean",
+          "hyp_raw": "Yea so are all the lesser animals of today clean",
+          "ref_norm": "yea so are all the lesser animals of today clean",
+          "hyp_norm": "yea so are all the lesser animals of today clean",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_a0578",
+          "speaker": "HQTV",
+          "ref_raw": "But we'll just postpone this",
+          "hyp_raw": "But we're just postponed this",
+          "ref_norm": "but we will just postpone this",
+          "hyp_norm": "but we are just postponed this",
+          "sample_wer": 0.3333333333333333,
+          "sample_cer": 0.16666666666666666
+        },
+        {
+          "utt_id": "HQTV_arctic_a0580",
+          "speaker": "HQTV",
+          "ref_raw": "This is my fifth voyage",
+          "hyp_raw": "This is my fifth ball game",
+          "ref_norm": "this is my 5th voyage",
+          "hyp_norm": "this is my 5th ball game",
+          "sample_wer": 0.4,
+          "sample_cer": 0.3333333333333333
+        },
+        {
+          "utt_id": "HQTV_arctic_a0582",
+          "speaker": "HQTV",
+          "ref_raw": "Daughtry elaborated on the counting trick by bringing Cocky along",
+          "hyp_raw": "Dawry elaborated on the counting trick by ringing Cokie along",
+          "ref_norm": "daughtry elaborated on the counting trick by bringing cocky along",
+          "hyp_norm": "dawry elaborated on the counting trick by ringing cokie along",
+          "sample_wer": 0.3,
+          "sample_cer": 0.12307692307692308
+        },
+        {
+          "utt_id": "HQTV_arctic_a0586",
+          "speaker": "HQTV",
+          "ref_raw": "We don't see ourselves as foolish",
+          "hyp_raw": "We don't see ourselves as foolish",
+          "ref_norm": "we do not see ourselves as foolish",
+          "hyp_norm": "we do not see ourselves as foolish",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_b0013",
+          "speaker": "HQTV",
+          "ref_raw": "Lakes and rivers hundreds of them thousands of them",
+          "hyp_raw": "Lake and river hundreds of them thousands of them",
+          "ref_norm": "lakes and rivers 100s of them 1000s of them",
+          "hyp_norm": "lake and river 100s of them 1000s of them",
+          "sample_wer": 0.2222222222222222,
+          "sample_cer": 0.046511627906976744
+        },
+        {
+          "utt_id": "HQTV_arctic_b0023",
+          "speaker": "HQTV",
+          "ref_raw": "MacDougall my engineer believes it",
+          "hyp_raw": "MacDougall my engineer believed it",
+          "ref_norm": "macdougall my engineer believes it",
+          "hyp_norm": "macdougall my engineer believed it",
+          "sample_wer": 0.2,
+          "sample_cer": 0.029411764705882353
+        },
+        {
+          "utt_id": "HQTV_arctic_b0032",
+          "speaker": "HQTV",
+          "ref_raw": "He caught himself with a jerk",
+          "hyp_raw": "He caught himself with a joke",
+          "ref_norm": "he caught himself with a jerk",
+          "hyp_norm": "he caught himself with a joke",
+          "sample_wer": 0.16666666666666666,
+          "sample_cer": 0.10344827586206896
+        },
+        {
+          "utt_id": "HQTV_arctic_b0051",
+          "speaker": "HQTV",
+          "ref_raw": "The sixth day he spent in the cabin with Gregson",
+          "hyp_raw": "The sixth day he spent in the cabin with Gregson",
+          "ref_norm": "the 6th day he spent in the cabin with gregson",
+          "hyp_norm": "the 6th day he spent in the cabin with gregson",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_b0080",
+          "speaker": "HQTV",
+          "ref_raw": "Tomorrow it will be strong enough for you to stand upon",
+          "hyp_raw": "Tomorrow you'll be strong enough for you to stand upon",
+          "ref_norm": "tomorrow it will be strong enough for you to stand upon",
+          "hyp_norm": "tomorrow you will be strong enough for you to stand upon",
+          "sample_wer": 0.09090909090909091,
+          "sample_cer": 0.05454545454545454
+        },
+        {
+          "utt_id": "HQTV_arctic_b0092",
+          "speaker": "HQTV",
+          "ref_raw": "I want to die in it",
+          "hyp_raw": "I want to die in it",
+          "ref_norm": "i want to die in it",
+          "hyp_norm": "i want to die in it",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_b0169",
+          "speaker": "HQTV",
+          "ref_raw": "He drew in a deep breath as he looked at them",
+          "hyp_raw": "He drowned in deep breath as he looked at them",
+          "ref_norm": "he drew in a deep breath as he looked at them",
+          "hyp_norm": "he drowned in deep breath as he looked at them",
+          "sample_wer": 0.18181818181818182,
+          "sample_cer": 0.13333333333333333
+        },
+        {
+          "utt_id": "HQTV_arctic_b0177",
+          "speaker": "HQTV",
+          "ref_raw": "Her gray eyes were flashing and her lips were quivering",
+          "hyp_raw": "Her gray eyes were flashing and her lips were withering",
+          "ref_norm": "her gray eyes were flashing and her lips were quivering",
+          "hyp_norm": "her gray eyes were flashing and her lips were withering",
+          "sample_wer": 0.1,
+          "sample_cer": 0.07272727272727272
+        },
+        {
+          "utt_id": "HQTV_arctic_b0182",
+          "speaker": "HQTV",
+          "ref_raw": "I was in New York when the crash came",
+          "hyp_raw": "I was in New York when the crash came",
+          "ref_norm": "i was in new york when the crash came",
+          "hyp_norm": "i was in new york when the crash came",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_b0198",
+          "speaker": "HQTV",
+          "ref_raw": "I use great trouble advisedly",
+          "hyp_raw": "I do a great job of advisory",
+          "ref_norm": "i use great trouble advisedly",
+          "hyp_norm": "i do a great job of advisory",
+          "sample_wer": 1.0,
+          "sample_cer": 0.4482758620689655
+        },
+        {
+          "utt_id": "HQTV_arctic_b0217",
+          "speaker": "HQTV",
+          "ref_raw": "Such is my passage engaged on the steamer",
+          "hyp_raw": "Such my passions engaged on the steamer",
+          "ref_norm": "such is my passage engaged on the steamer",
+          "hyp_norm": "such my passions engaged on the steamer",
+          "sample_wer": 0.25,
+          "sample_cer": 0.17073170731707318
+        },
+        {
+          "utt_id": "HQTV_arctic_b0247",
+          "speaker": "HQTV",
+          "ref_raw": "He wanted to give the finish to this foe already so far gone",
+          "hyp_raw": "He wanted to give the finish to this foe already so far ago",
+          "ref_norm": "he wanted to give the finish to this foe already so far gone",
+          "hyp_norm": "he wanted to give the finish to this foe already so far ago",
+          "sample_wer": 0.07692307692307693,
+          "sample_cer": 0.05
+        },
+        {
+          "utt_id": "HQTV_arctic_b0300",
+          "speaker": "HQTV",
+          "ref_raw": "Does the old boy often go off at half cock that way",
+          "hyp_raw": "Does the old boy often go off at half-cock that way",
+          "ref_norm": "does the old boy often go off at half cock that way",
+          "hyp_norm": "does the old boy often go off at half cock that way",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_b0309",
+          "speaker": "HQTV",
+          "ref_raw": "Nor was Elam Harnish an exception",
+          "hyp_raw": "Nowhere alum harnessed an exception",
+          "ref_norm": "nor was elam harnish an exception",
+          "hyp_norm": "nowhere alum harnessed an exception",
+          "sample_wer": 0.6666666666666666,
+          "sample_cer": 0.3333333333333333
+        },
+        {
+          "utt_id": "HQTV_arctic_b0310",
+          "speaker": "HQTV",
+          "ref_raw": "A little treatment massage with some help from the doctor",
+          "hyp_raw": "A little treatment massaged with some help from the doctor",
+          "ref_norm": "a little treatment massage with some help from the doctor",
+          "hyp_norm": "a little treatment massaged with some help from the doctor",
+          "sample_wer": 0.1,
+          "sample_cer": 0.017543859649122806
+        },
+        {
+          "utt_id": "HQTV_arctic_b0330",
+          "speaker": "HQTV",
+          "ref_raw": "They only had a little thirty thousand dollar fire",
+          "hyp_raw": "They only had a little thirty thousand dollar fine",
+          "ref_norm": "they only had a little $30000 fire",
+          "hyp_norm": "they only had a little $30000 fine",
+          "sample_wer": 0.14285714285714285,
+          "sample_cer": 0.029411764705882353
+        },
+        {
+          "utt_id": "HQTV_arctic_b0349",
+          "speaker": "HQTV",
+          "ref_raw": "In such a tumbling of values was no time to sell",
+          "hyp_raw": "In such a tumbling of value was not time to sell",
+          "ref_norm": "in such a tumbling of values was no time to sell",
+          "hyp_norm": "in such a tumbling of value was not time to sell",
+          "sample_wer": 0.18181818181818182,
+          "sample_cer": 0.041666666666666664
+        },
+        {
+          "utt_id": "HQTV_arctic_b0356",
+          "speaker": "HQTV",
+          "ref_raw": "He loved to play Chinese lottery",
+          "hyp_raw": "He loved to play Chinese lottery",
+          "ref_norm": "he loved to play chinese lottery",
+          "hyp_norm": "he loved to play chinese lottery",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_b0376",
+          "speaker": "HQTV",
+          "ref_raw": "Thought I and a worthy fool he proved",
+          "hyp_raw": "Thorpe's Eye and a worthy fool he proved",
+          "ref_norm": "thought i and a worthy fool he proved",
+          "hyp_norm": "thorpe is eye and a worthy fool he proved",
+          "sample_wer": 0.375,
+          "sample_cer": 0.24324324324324326
+        },
+        {
+          "utt_id": "HQTV_arctic_b0378",
+          "speaker": "HQTV",
+          "ref_raw": "I like to speculate upon the glorious future of man",
+          "hyp_raw": "I like to speculate upon the glorious future of man",
+          "ref_norm": "i like to speculate upon the glorious future of man",
+          "hyp_norm": "i like to speculate upon the glorious future of man",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_b0383",
+          "speaker": "HQTV",
+          "ref_raw": "A bush chief had died a natural death",
+          "hyp_raw": "A bush sheep had died a natural death",
+          "ref_norm": "a bush chief had died a natural death",
+          "hyp_norm": "a bush sheep had died a natural death",
+          "sample_wer": 0.125,
+          "sample_cer": 0.08108108108108109
+        },
+        {
+          "utt_id": "HQTV_arctic_b0406",
+          "speaker": "HQTV",
+          "ref_raw": "How in hell did he know it was you in the dark",
+          "hyp_raw": "How in hell did he know it was you in the dark",
+          "ref_norm": "how in hell did he know it was you in the dark",
+          "hyp_norm": "how in hell did he know it was you in the dark",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "HQTV_arctic_b0445",
+          "speaker": "HQTV",
+          "ref_raw": "Mops sir eagerly answered the sailor at the wheel",
+          "hyp_raw": "Mob sir eagerly answered the sailor at the wheel",
+          "ref_norm": "mops sir eagerly answered the sailor at the wheel",
+          "hyp_norm": "mob sir eagerly answered the sailor at the wheel",
+          "sample_wer": 0.1111111111111111,
+          "sample_cer": 0.04081632653061224
+        },
+        {
+          "utt_id": "HQTV_arctic_b0450",
+          "speaker": "HQTV",
+          "ref_raw": "To my dearest and always appreciated friend I submit myself",
+          "hyp_raw": "To my dearest and always appreciative friend I submit myself",
+          "ref_norm": "to my dearest and always appreciated friend i submit myself",
+          "hyp_norm": "to my dearest and always appreciative friend i submit myself",
+          "sample_wer": 0.1,
+          "sample_cer": 0.05084745762711865
+        },
+        {
+          "utt_id": "HQTV_arctic_b0527",
+          "speaker": "HQTV",
+          "ref_raw": "The very idea of it was preposterous",
+          "hyp_raw": "The very idea of it was preposterous",
+          "ref_norm": "the very idea of it was preposterous",
+          "hyp_norm": "the very idea of it was preposterous",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0013",
+          "speaker": "PNV",
+          "ref_raw": "He was a head shorter than his companion of almost delicate physique",
+          "hyp_raw": "He was a head shorter than his companion of almost delicate physique",
+          "ref_norm": "he was a head shorter than his companion of almost delicate physique",
+          "hyp_norm": "he was a head shorter than his companion of almost delicate physique",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0018",
+          "speaker": "PNV",
+          "ref_raw": "There was a change now",
+          "hyp_raw": "There was a change now",
+          "ref_norm": "there was a change now",
+          "hyp_norm": "there was a change now",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0023",
+          "speaker": "PNV",
+          "ref_raw": "A combination of Canadian capital quickly organized and petitioned for the same privileges",
+          "hyp_raw": "A combination of Canadian capital quickly organized and petitioned for the same privileges",
+          "ref_norm": "a combination of canadian capital quickly organized and petitioned for the same privileges",
+          "hyp_norm": "a combination of canadian capital quickly organized and petitioned for the same privileges",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0034",
+          "speaker": "PNV",
+          "ref_raw": "Men of Selden's stamp don't stop at women and children",
+          "hyp_raw": "Men of Sheldon's stem don't stop at women and children",
+          "ref_norm": "men of selden is stamp do not stop at women and children",
+          "hyp_norm": "men of sheldon is stem do not stop at women and children",
+          "sample_wer": 0.16666666666666666,
+          "sample_cer": 0.07142857142857142
+        },
+        {
+          "utt_id": "PNV_arctic_a0038",
+          "speaker": "PNV",
+          "ref_raw": "We'll have to watch our chances",
+          "hyp_raw": "We'll have to watch our chances",
+          "ref_norm": "we will have to watch our chances",
+          "hyp_norm": "we will have to watch our chances",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0049",
+          "speaker": "PNV",
+          "ref_raw": "Gregson was asleep when he reentered the cabin",
+          "hyp_raw": "Gregson was asleep when he reentered the cabin",
+          "ref_norm": "gregson was asleep when he reentered the cabin",
+          "hyp_norm": "gregson was asleep when he reentered the cabin",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0050",
+          "speaker": "PNV",
+          "ref_raw": "In spite of their absurdity the words affected Philip curiously",
+          "hyp_raw": "In spite of their absurdity the words affected Philip curiously",
+          "ref_norm": "in spite of their absurdity the words affected philip curiously",
+          "hyp_norm": "in spite of their absurdity the words affected philip curiously",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0090",
+          "speaker": "PNV",
+          "ref_raw": "The singing voice approached rapidly",
+          "hyp_raw": "The singing voice abroad rapidly",
+          "ref_norm": "the singing voice approached rapidly",
+          "hyp_norm": "the singing voice abroad rapidly",
+          "sample_wer": 0.2,
+          "sample_cer": 0.1388888888888889
+        },
+        {
+          "utt_id": "PNV_arctic_a0093",
+          "speaker": "PNV",
+          "ref_raw": "For a full minute he crouched and listened",
+          "hyp_raw": "For a full minute he scratched and listened",
+          "ref_norm": "for a full minute he crouched and listened",
+          "hyp_norm": "for a full minute he scratched and listened",
+          "sample_wer": 0.125,
+          "sample_cer": 0.07142857142857142
+        },
+        {
+          "utt_id": "PNV_arctic_a0108",
+          "speaker": "PNV",
+          "ref_raw": "He waded into the edge of the water and began scrubbing himself",
+          "hyp_raw": "He waded into the edge of the water and began shrubbing himself",
+          "ref_norm": "he waded into the edge of the water and began scrubbing himself",
+          "hyp_norm": "he waded into the edge of the water and began shrubbing himself",
+          "sample_wer": 0.08333333333333333,
+          "sample_cer": 0.015873015873015872
+        },
+        {
+          "utt_id": "PNV_arctic_a0150",
+          "speaker": "PNV",
+          "ref_raw": "Goodbye Pierre he shouted",
+          "hyp_raw": "Goodbye Pierre he shouted",
+          "ref_norm": "goodbye pierre he shouted",
+          "hyp_norm": "goodbye pierre he shouted",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0158",
+          "speaker": "PNV",
+          "ref_raw": "Does that look good",
+          "hyp_raw": "Does that look good",
+          "ref_norm": "does that look good",
+          "hyp_norm": "does that look good",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0165",
+          "speaker": "PNV",
+          "ref_raw": "They are to attack your camp tomorrow night",
+          "hyp_raw": "They are to attack your camp tomorrow night",
+          "ref_norm": "they are to attack your camp tomorrow night",
+          "hyp_norm": "they are to attack your camp tomorrow night",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0201",
+          "speaker": "PNV",
+          "ref_raw": "He cried and swung the club wildly",
+          "hyp_raw": "He cried and swung the club wildly",
+          "ref_norm": "he cried and swung the club wildly",
+          "hyp_norm": "he cried and swung the club wildly",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0214",
+          "speaker": "PNV",
+          "ref_raw": "Besides he was paid one case of tobacco per head",
+          "hyp_raw": "Besides he was paid one case of tobacco per head",
+          "ref_norm": "besides he was paid one case of tobacco per head",
+          "hyp_norm": "besides he was paid one case of tobacco per head",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0262",
+          "speaker": "PNV",
+          "ref_raw": "They wouldn't be sweeping a big vessel like the Martha",
+          "hyp_raw": "They wouldn't be sweeping a big vessel like the Martha",
+          "ref_norm": "they would not be sweeping a big vessel like the martha",
+          "hyp_norm": "they would not be sweeping a big vessel like the martha",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0278",
+          "speaker": "PNV",
+          "ref_raw": "It would give me nervous prostration",
+          "hyp_raw": "It would give me nervous prostrate",
+          "ref_norm": "it would give me nervous prostration",
+          "hyp_norm": "it would give me nervous prostrate",
+          "sample_wer": 0.16666666666666666,
+          "sample_cer": 0.08333333333333333
+        },
+        {
+          "utt_id": "PNV_arctic_a0283",
+          "speaker": "PNV",
+          "ref_raw": "The woman in you is only incidental accidental and irrelevant",
+          "hyp_raw": "The woman in you is only accidental accidental and irrelevant",
+          "ref_norm": "the woman in you is only incidental accidental and irrelevant",
+          "hyp_norm": "the woman in you is only accidental accidental and irrelevant",
+          "sample_wer": 0.1,
+          "sample_cer": 0.03278688524590164
+        },
+        {
+          "utt_id": "PNV_arctic_a0366",
+          "speaker": "PNV",
+          "ref_raw": "A wildly exciting time was his during the week preceding Thursday the eighteenth",
+          "hyp_raw": "A wildly exciting time was here during the week preceding Thursday the eighteenth",
+          "ref_norm": "a wildly exciting time was his during the week preceding thursday the 18th",
+          "hyp_norm": "a wildly exciting time was here during the week preceding thursday the 18th",
+          "sample_wer": 0.07692307692307693,
+          "sample_cer": 0.04054054054054054
+        },
+        {
+          "utt_id": "PNV_arctic_a0404",
+          "speaker": "PNV",
+          "ref_raw": "Perrault found one with head buried in the grub box",
+          "hyp_raw": "Perot found one with head buried in a group box",
+          "ref_norm": "perrault found one with head buried in the grub box",
+          "hyp_norm": "perot found one with head buried in a group box",
+          "sample_wer": 0.3,
+          "sample_cer": 0.17647058823529413
+        },
+        {
+          "utt_id": "PNV_arctic_a0424",
+          "speaker": "PNV",
+          "ref_raw": "Obviously it was a disease that could be contracted by contact",
+          "hyp_raw": "Obviously it was a disease that could be contracted by contact",
+          "ref_norm": "obviously it was a disease that could be contracted by contact",
+          "hyp_norm": "obviously it was a disease that could be contracted by contact",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0429",
+          "speaker": "PNV",
+          "ref_raw": "Quick was the disappointment in his face yet smiling was the acquiescence",
+          "hyp_raw": "Quick was the disappointment in his face yet smiling was the acquiescence",
+          "ref_norm": "quick was the disappointment in his face yet smiling was the acquiescence",
+          "hyp_norm": "quick was the disappointment in his face yet smiling was the acquiescence",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0455",
+          "speaker": "PNV",
+          "ref_raw": "I obeyed and a minute or two later they stood before him",
+          "hyp_raw": "I obeyed and in a minute or two later they stood before him",
+          "ref_norm": "i obeyed and a minute or 2 later they stood before him",
+          "hyp_norm": "i obeyed and in a minute or 2 later they stood before him",
+          "sample_wer": 0.08333333333333333,
+          "sample_cer": 0.05555555555555555
+        },
+        {
+          "utt_id": "PNV_arctic_a0509",
+          "speaker": "PNV",
+          "ref_raw": "Yet in accordance with Ernest's test of truth it worked",
+          "hyp_raw": "Yet in accordance with Ernest's test of truth it worked",
+          "ref_norm": "yet in accordance with ernest is test of truth it worked",
+          "hyp_norm": "yet in accordance with ernest is test of truth it worked",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0511",
+          "speaker": "PNV",
+          "ref_raw": "There is more behind this than a mere university ideal",
+          "hyp_raw": "There is more behind this than a mere university ideal",
+          "ref_norm": "there is more behind this than a mere university ideal",
+          "hyp_norm": "there is more behind this than a mere university ideal",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0512",
+          "speaker": "PNV",
+          "ref_raw": "No it is a palace wherein there are many servants",
+          "hyp_raw": "No it is a palace wherein there are many servants",
+          "ref_norm": "no it is a palace wherein there are many servants",
+          "hyp_norm": "no it is a palace wherein there are many servants",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0529",
+          "speaker": "PNV",
+          "ref_raw": "As I say he had tapped the message very rapidly",
+          "hyp_raw": "As I say he had tapped the message very rapidly",
+          "ref_norm": "as i say he had tapped the message very rapidly",
+          "hyp_norm": "as i say he had tapped the message very rapidly",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0540",
+          "speaker": "PNV",
+          "ref_raw": "Yea so are all the lesser animals of today clean",
+          "hyp_raw": "Yea so are all the lesser animals of today clean",
+          "ref_norm": "yea so are all the lesser animals of today clean",
+          "hyp_norm": "yea so are all the lesser animals of today clean",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0578",
+          "speaker": "PNV",
+          "ref_raw": "But we'll just postpone this",
+          "hyp_raw": "But we've just postponed this",
+          "ref_norm": "but we will just postpone this",
+          "hyp_norm": "but we have just postponed this",
+          "sample_wer": 0.3333333333333333,
+          "sample_cer": 0.16666666666666666
+        },
+        {
+          "utt_id": "PNV_arctic_a0580",
+          "speaker": "PNV",
+          "ref_raw": "This is my fifth voyage",
+          "hyp_raw": "This is my fifth voyage",
+          "ref_norm": "this is my 5th voyage",
+          "hyp_norm": "this is my 5th voyage",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_a0582",
+          "speaker": "PNV",
+          "ref_raw": "Daughtry elaborated on the counting trick by bringing Cocky along",
+          "hyp_raw": "The jury elaborated on the counting trick by bringing Cokie along",
+          "ref_norm": "daughtry elaborated on the counting trick by bringing cocky along",
+          "hyp_norm": "the jury elaborated on the counting trick by bringing cokie along",
+          "sample_wer": 0.3,
+          "sample_cer": 0.13846153846153847
+        },
+        {
+          "utt_id": "PNV_arctic_a0586",
+          "speaker": "PNV",
+          "ref_raw": "We don't see ourselves as foolish",
+          "hyp_raw": "We don't see ourselves as foolish",
+          "ref_norm": "we do not see ourselves as foolish",
+          "hyp_norm": "we do not see ourselves as foolish",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0013",
+          "speaker": "PNV",
+          "ref_raw": "Lakes and rivers hundreds of them thousands of them",
+          "hyp_raw": "Lakes and rivers hundreds of them thousands of them",
+          "ref_norm": "lakes and rivers 100s of them 1000s of them",
+          "hyp_norm": "lakes and rivers 100s of them 1000s of them",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0023",
+          "speaker": "PNV",
+          "ref_raw": "MacDougall my engineer believes it",
+          "hyp_raw": "MacDougall my engineer believes it",
+          "ref_norm": "macdougall my engineer believes it",
+          "hyp_norm": "macdougall my engineer believes it",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0032",
+          "speaker": "PNV",
+          "ref_raw": "He caught himself with a jerk",
+          "hyp_raw": "He caught himself with a jerk",
+          "ref_norm": "he caught himself with a jerk",
+          "hyp_norm": "he caught himself with a jerk",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0051",
+          "speaker": "PNV",
+          "ref_raw": "The sixth day he spent in the cabin with Gregson",
+          "hyp_raw": "The sixth day he spent in the cabin with Gregson",
+          "ref_norm": "the 6th day he spent in the cabin with gregson",
+          "hyp_norm": "the 6th day he spent in the cabin with gregson",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0080",
+          "speaker": "PNV",
+          "ref_raw": "Tomorrow it will be strong enough for you to stand upon",
+          "hyp_raw": "Tomorrow it will be strong enough for you to stand upon",
+          "ref_norm": "tomorrow it will be strong enough for you to stand upon",
+          "hyp_norm": "tomorrow it will be strong enough for you to stand upon",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0092",
+          "speaker": "PNV",
+          "ref_raw": "I want to die in it",
+          "hyp_raw": "I want to die in it",
+          "ref_norm": "i want to die in it",
+          "hyp_norm": "i want to die in it",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0169",
+          "speaker": "PNV",
+          "ref_raw": "He drew in a deep breath as he looked at them",
+          "hyp_raw": "He drew in a deep breath as he looked at them",
+          "ref_norm": "he drew in a deep breath as he looked at them",
+          "hyp_norm": "he drew in a deep breath as he looked at them",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0177",
+          "speaker": "PNV",
+          "ref_raw": "Her gray eyes were flashing and her lips were quivering",
+          "hyp_raw": "Her gray eyes were flashing and her lips were quivering",
+          "ref_norm": "her gray eyes were flashing and her lips were quivering",
+          "hyp_norm": "her gray eyes were flashing and her lips were quivering",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0182",
+          "speaker": "PNV",
+          "ref_raw": "I was in New York when the crash came",
+          "hyp_raw": "I was in New York when the crash came",
+          "ref_norm": "i was in new york when the crash came",
+          "hyp_norm": "i was in new york when the crash came",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0198",
+          "speaker": "PNV",
+          "ref_raw": "I use great trouble advisedly",
+          "hyp_raw": "I use great trouble advice",
+          "ref_norm": "i use great trouble advisedly",
+          "hyp_norm": "i use great trouble advice",
+          "sample_wer": 0.2,
+          "sample_cer": 0.13793103448275862
+        },
+        {
+          "utt_id": "PNV_arctic_b0217",
+          "speaker": "PNV",
+          "ref_raw": "Such is my passage engaged on the steamer",
+          "hyp_raw": "Such is my passage engaged on the steamer",
+          "ref_norm": "such is my passage engaged on the steamer",
+          "hyp_norm": "such is my passage engaged on the steamer",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0247",
+          "speaker": "PNV",
+          "ref_raw": "He wanted to give the finish to this foe already so far gone",
+          "hyp_raw": "He wanted to give the finish to this foe already so far gone",
+          "ref_norm": "he wanted to give the finish to this foe already so far gone",
+          "hyp_norm": "he wanted to give the finish to this foe already so far gone",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0300",
+          "speaker": "PNV",
+          "ref_raw": "Does the old boy often go off at half cock that way",
+          "hyp_raw": "Does the old boy often go off at half cook that way",
+          "ref_norm": "does the old boy often go off at half cock that way",
+          "hyp_norm": "does the old boy often go off at half cook that way",
+          "sample_wer": 0.08333333333333333,
+          "sample_cer": 0.0196078431372549
+        },
+        {
+          "utt_id": "PNV_arctic_b0309",
+          "speaker": "PNV",
+          "ref_raw": "Nor was Elam Harnish an exception",
+          "hyp_raw": "Nor was Elam Hanage an exception",
+          "ref_norm": "nor was elam harnish an exception",
+          "hyp_norm": "nor was elam hanage an exception",
+          "sample_wer": 0.16666666666666666,
+          "sample_cer": 0.12121212121212122
+        },
+        {
+          "utt_id": "PNV_arctic_b0310",
+          "speaker": "PNV",
+          "ref_raw": "A little treatment massage with some help from the doctor",
+          "hyp_raw": "A little treatment massaged with some help from the doctor",
+          "ref_norm": "a little treatment massage with some help from the doctor",
+          "hyp_norm": "a little treatment massaged with some help from the doctor",
+          "sample_wer": 0.1,
+          "sample_cer": 0.017543859649122806
+        },
+        {
+          "utt_id": "PNV_arctic_b0330",
+          "speaker": "PNV",
+          "ref_raw": "They only had a little thirty thousand dollar fire",
+          "hyp_raw": "They only had a little thirty thousand dollars of fire",
+          "ref_norm": "they only had a little $30000 fire",
+          "hyp_norm": "they only had a little $30000 of fire",
+          "sample_wer": 0.14285714285714285,
+          "sample_cer": 0.08823529411764706
+        },
+        {
+          "utt_id": "PNV_arctic_b0349",
+          "speaker": "PNV",
+          "ref_raw": "In such a tumbling of values was no time to sell",
+          "hyp_raw": "In such a tumbling of values was no time to sail",
+          "ref_norm": "in such a tumbling of values was no time to sell",
+          "hyp_norm": "in such a tumbling of values was no time to sail",
+          "sample_wer": 0.09090909090909091,
+          "sample_cer": 0.041666666666666664
+        },
+        {
+          "utt_id": "PNV_arctic_b0356",
+          "speaker": "PNV",
+          "ref_raw": "He loved to play Chinese lottery",
+          "hyp_raw": "He loved to play Chinese lottery",
+          "ref_norm": "he loved to play chinese lottery",
+          "hyp_norm": "he loved to play chinese lottery",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0376",
+          "speaker": "PNV",
+          "ref_raw": "Thought I and a worthy fool he proved",
+          "hyp_raw": "Thought I and the worthy fool he proved",
+          "ref_norm": "thought i and a worthy fool he proved",
+          "hyp_norm": "thought i and the worthy fool he proved",
+          "sample_wer": 0.125,
+          "sample_cer": 0.08108108108108109
+        },
+        {
+          "utt_id": "PNV_arctic_b0378",
+          "speaker": "PNV",
+          "ref_raw": "I like to speculate upon the glorious future of man",
+          "hyp_raw": "I like to speculate upon the glorious future of man",
+          "ref_norm": "i like to speculate upon the glorious future of man",
+          "hyp_norm": "i like to speculate upon the glorious future of man",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0383",
+          "speaker": "PNV",
+          "ref_raw": "A bush chief had died a natural death",
+          "hyp_raw": "A bush chief had died a natural death",
+          "ref_norm": "a bush chief had died a natural death",
+          "hyp_norm": "a bush chief had died a natural death",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "PNV_arctic_b0406",
+          "speaker": "PNV",
+          "ref_raw": "How in hell did he know it was you in the dark",
+          "hyp_raw": "How in the hell did he know it was you in the dark",
+          "ref_norm": "how in hell did he know it was you in the dark",
+          "hyp_norm": "how in the hell did he know it was you in the dark",
+          "sample_wer": 0.08333333333333333,
+          "sample_cer": 0.08695652173913043
+        },
+        {
+          "utt_id": "PNV_arctic_b0445",
+          "speaker": "PNV",
+          "ref_raw": "Mops sir eagerly answered the sailor at the wheel",
+          "hyp_raw": "Mobs sir eagerly answered the sailor at the wheel",
+          "ref_norm": "mops sir eagerly answered the sailor at the wheel",
+          "hyp_norm": "mobs sir eagerly answered the sailor at the wheel",
+          "sample_wer": 0.1111111111111111,
+          "sample_cer": 0.02040816326530612
+        },
+        {
+          "utt_id": "PNV_arctic_b0450",
+          "speaker": "PNV",
+          "ref_raw": "To my dearest and always appreciated friend I submit myself",
+          "hyp_raw": "To my nearest and always appreciated friend I submit myself",
+          "ref_norm": "to my dearest and always appreciated friend i submit myself",
+          "hyp_norm": "to my nearest and always appreciated friend i submit myself",
+          "sample_wer": 0.1,
+          "sample_cer": 0.01694915254237288
+        },
+        {
+          "utt_id": "PNV_arctic_b0527",
+          "speaker": "PNV",
+          "ref_raw": "The very idea of it was preposterous",
+          "hyp_raw": "The very idea of it was preposterous",
+          "ref_norm": "the very idea of it was preposterous",
+          "hyp_norm": "the very idea of it was preposterous",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0013",
+          "speaker": "THV",
+          "ref_raw": "He was a head shorter than his companion of almost delicate physique",
+          "hyp_raw": "He was a head shorter than his companion of almost delicate physique",
+          "ref_norm": "he was a head shorter than his companion of almost delicate physique",
+          "hyp_norm": "he was a head shorter than his companion of almost delicate physique",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0018",
+          "speaker": "THV",
+          "ref_raw": "There was a change now",
+          "hyp_raw": "There was a change now",
+          "ref_norm": "there was a change now",
+          "hyp_norm": "there was a change now",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0023",
+          "speaker": "THV",
+          "ref_raw": "A combination of Canadian capital quickly organized and petitioned for the same privileges",
+          "hyp_raw": "A combination of Canadian capital quickly organized and petitioned for the same privilege",
+          "ref_norm": "a combination of canadian capital quickly organized and petitioned for the same privileges",
+          "hyp_norm": "a combination of canadian capital quickly organized and petitioned for the same privilege",
+          "sample_wer": 0.07692307692307693,
+          "sample_cer": 0.011111111111111112
+        },
+        {
+          "utt_id": "THV_arctic_a0034",
+          "speaker": "THV",
+          "ref_raw": "Men of Selden's stamp don't stop at women and children",
+          "hyp_raw": "Men of southern stem don't stop at women and children",
+          "ref_norm": "men of selden is stamp do not stop at women and children",
+          "hyp_norm": "men of southern stem do not stop at women and children",
+          "sample_wer": 0.25,
+          "sample_cer": 0.17857142857142858
+        },
+        {
+          "utt_id": "THV_arctic_a0038",
+          "speaker": "THV",
+          "ref_raw": "We'll have to watch our chances",
+          "hyp_raw": "We have to watch our chances",
+          "ref_norm": "we will have to watch our chances",
+          "hyp_norm": "we have to watch our chances",
+          "sample_wer": 0.14285714285714285,
+          "sample_cer": 0.15151515151515152
+        },
+        {
+          "utt_id": "THV_arctic_a0049",
+          "speaker": "THV",
+          "ref_raw": "Gregson was asleep when he reentered the cabin",
+          "hyp_raw": "Gregson was asleep when he entered the cabin",
+          "ref_norm": "gregson was asleep when he reentered the cabin",
+          "hyp_norm": "gregson was asleep when he entered the cabin",
+          "sample_wer": 0.125,
+          "sample_cer": 0.043478260869565216
+        },
+        {
+          "utt_id": "THV_arctic_a0050",
+          "speaker": "THV",
+          "ref_raw": "In spite of their absurdity the words affected Philip curiously",
+          "hyp_raw": "In spite of their absurdity the words affected Philip curiously",
+          "ref_norm": "in spite of their absurdity the words affected philip curiously",
+          "hyp_norm": "in spite of their absurdity the words affected philip curiously",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0090",
+          "speaker": "THV",
+          "ref_raw": "The singing voice approached rapidly",
+          "hyp_raw": "The singing voice approached rapidly",
+          "ref_norm": "the singing voice approached rapidly",
+          "hyp_norm": "the singing voice approached rapidly",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0093",
+          "speaker": "THV",
+          "ref_raw": "For a full minute he crouched and listened",
+          "hyp_raw": "For a full minute he crouched and listened",
+          "ref_norm": "for a full minute he crouched and listened",
+          "hyp_norm": "for a full minute he crouched and listened",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0108",
+          "speaker": "THV",
+          "ref_raw": "He waded into the edge of the water and began scrubbing himself",
+          "hyp_raw": "He waded into the edge of the water and began scraping himself",
+          "ref_norm": "he waded into the edge of the water and began scrubbing himself",
+          "hyp_norm": "he waded into the edge of the water and began scraping himself",
+          "sample_wer": 0.08333333333333333,
+          "sample_cer": 0.047619047619047616
+        },
+        {
+          "utt_id": "THV_arctic_a0150",
+          "speaker": "THV",
+          "ref_raw": "Goodbye Pierre he shouted",
+          "hyp_raw": "Goodbye Pierre he shouted",
+          "ref_norm": "goodbye pierre he shouted",
+          "hyp_norm": "goodbye pierre he shouted",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0158",
+          "speaker": "THV",
+          "ref_raw": "Does that look good",
+          "hyp_raw": "Does that look good",
+          "ref_norm": "does that look good",
+          "hyp_norm": "does that look good",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0165",
+          "speaker": "THV",
+          "ref_raw": "They are to attack your camp tomorrow night",
+          "hyp_raw": "They are to attack your camp tomorrow night",
+          "ref_norm": "they are to attack your camp tomorrow night",
+          "hyp_norm": "they are to attack your camp tomorrow night",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0201",
+          "speaker": "THV",
+          "ref_raw": "He cried and swung the club wildly",
+          "hyp_raw": "He cried and swung the club wildly",
+          "ref_norm": "he cried and swung the club wildly",
+          "hyp_norm": "he cried and swung the club wildly",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0214",
+          "speaker": "THV",
+          "ref_raw": "Besides he was paid one case of tobacco per head",
+          "hyp_raw": "Besides he was paid one case of tobacco per head",
+          "ref_norm": "besides he was paid one case of tobacco per head",
+          "hyp_norm": "besides he was paid one case of tobacco per head",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0262",
+          "speaker": "THV",
+          "ref_raw": "They wouldn't be sweeping a big vessel like the Martha",
+          "hyp_raw": "They wouldn't be sweeping a big virtue like the mother",
+          "ref_norm": "they would not be sweeping a big vessel like the martha",
+          "hyp_norm": "they would not be sweeping a big virtue like the mother",
+          "sample_wer": 0.18181818181818182,
+          "sample_cer": 0.16363636363636364
+        },
+        {
+          "utt_id": "THV_arctic_a0278",
+          "speaker": "THV",
+          "ref_raw": "It would give me nervous prostration",
+          "hyp_raw": "It would give me a nervous prostrate",
+          "ref_norm": "it would give me nervous prostration",
+          "hyp_norm": "it would give me a nervous prostrate",
+          "sample_wer": 0.3333333333333333,
+          "sample_cer": 0.1388888888888889
+        },
+        {
+          "utt_id": "THV_arctic_a0283",
+          "speaker": "THV",
+          "ref_raw": "The woman in you is only incidental accidental and irrelevant",
+          "hyp_raw": "The woman in you is only incidental accidental and irrelevant",
+          "ref_norm": "the woman in you is only incidental accidental and irrelevant",
+          "hyp_norm": "the woman in you is only incidental accidental and irrelevant",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0366",
+          "speaker": "THV",
+          "ref_raw": "A wildly exciting time was his during the week preceding Thursday the eighteenth",
+          "hyp_raw": "A wildly exciting time was here during the week preceding Thursday the eighteenth",
+          "ref_norm": "a wildly exciting time was his during the week preceding thursday the 18th",
+          "hyp_norm": "a wildly exciting time was here during the week preceding thursday the 18th",
+          "sample_wer": 0.07692307692307693,
+          "sample_cer": 0.04054054054054054
+        },
+        {
+          "utt_id": "THV_arctic_a0404",
+          "speaker": "THV",
+          "ref_raw": "Perrault found one with head buried in the grub box",
+          "hyp_raw": "Burroat found one which had buried in the grub box",
+          "ref_norm": "perrault found one with head buried in the grub box",
+          "hyp_norm": "burroat found one which had buried in the grub box",
+          "sample_wer": 0.3,
+          "sample_cer": 0.1568627450980392
+        },
+        {
+          "utt_id": "THV_arctic_a0424",
+          "speaker": "THV",
+          "ref_raw": "Obviously it was a disease that could be contracted by contact",
+          "hyp_raw": "Obviously it was a disease that could be contracted by contact",
+          "ref_norm": "obviously it was a disease that could be contracted by contact",
+          "hyp_norm": "obviously it was a disease that could be contracted by contact",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0429",
+          "speaker": "THV",
+          "ref_raw": "Quick was the disappointment in his face yet smiling was the acquiescence",
+          "hyp_raw": "Quick was the disappointment in his face yet smiling was his acquiescence",
+          "ref_norm": "quick was the disappointment in his face yet smiling was the acquiescence",
+          "hyp_norm": "quick was the disappointment in his face yet smiling was his acquiescence",
+          "sample_wer": 0.08333333333333333,
+          "sample_cer": 0.0410958904109589
+        },
+        {
+          "utt_id": "THV_arctic_a0455",
+          "speaker": "THV",
+          "ref_raw": "I obeyed and a minute or two later they stood before him",
+          "hyp_raw": "I obeyed and a minute or two later they stood before him",
+          "ref_norm": "i obeyed and a minute or 2 later they stood before him",
+          "hyp_norm": "i obeyed and a minute or 2 later they stood before him",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0509",
+          "speaker": "THV",
+          "ref_raw": "Yet in accordance with Ernest's test of truth it worked",
+          "hyp_raw": "Yet in accordance with any test of truth it worked",
+          "ref_norm": "yet in accordance with ernest is test of truth it worked",
+          "hyp_norm": "yet in accordance with any test of truth it worked",
+          "sample_wer": 0.18181818181818182,
+          "sample_cer": 0.14285714285714285
+        },
+        {
+          "utt_id": "THV_arctic_a0511",
+          "speaker": "THV",
+          "ref_raw": "There is more behind this than a mere university ideal",
+          "hyp_raw": "There is more behind this than a Merr University idea",
+          "ref_norm": "there is more behind this than a mere university ideal",
+          "hyp_norm": "there is more behind this than a merr university idea",
+          "sample_wer": 0.2,
+          "sample_cer": 0.037037037037037035
+        },
+        {
+          "utt_id": "THV_arctic_a0512",
+          "speaker": "THV",
+          "ref_raw": "No it is a palace wherein there are many servants",
+          "hyp_raw": "Now it is a palace wherein there are many servants",
+          "ref_norm": "no it is a palace wherein there are many servants",
+          "hyp_norm": "now it is a palace wherein there are many servants",
+          "sample_wer": 0.1,
+          "sample_cer": 0.02040816326530612
+        },
+        {
+          "utt_id": "THV_arctic_a0529",
+          "speaker": "THV",
+          "ref_raw": "As I say he had tapped the message very rapidly",
+          "hyp_raw": "As I say he had tapped the message very rapidly",
+          "ref_norm": "as i say he had tapped the message very rapidly",
+          "hyp_norm": "as i say he had tapped the message very rapidly",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0540",
+          "speaker": "THV",
+          "ref_raw": "Yea so are all the lesser animals of today clean",
+          "hyp_raw": "Yea it's so all the leisure animals of today clean",
+          "ref_norm": "yea so are all the lesser animals of today clean",
+          "hyp_norm": "yea it is so all the leisure animals of today clean",
+          "sample_wer": 0.4,
+          "sample_cer": 0.20833333333333334
+        },
+        {
+          "utt_id": "THV_arctic_a0578",
+          "speaker": "THV",
+          "ref_raw": "But we'll just postpone this",
+          "hyp_raw": "But we just postponed this",
+          "ref_norm": "but we will just postpone this",
+          "hyp_norm": "but we just postponed this",
+          "sample_wer": 0.3333333333333333,
+          "sample_cer": 0.2
+        },
+        {
+          "utt_id": "THV_arctic_a0580",
+          "speaker": "THV",
+          "ref_raw": "This is my fifth voyage",
+          "hyp_raw": "This is my fifth voyage",
+          "ref_norm": "this is my 5th voyage",
+          "hyp_norm": "this is my 5th voyage",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_a0582",
+          "speaker": "THV",
+          "ref_raw": "Daughtry elaborated on the counting trick by bringing Cocky along",
+          "hyp_raw": "Daughtry elaborated on the counting trick by bringing Cokie along",
+          "ref_norm": "daughtry elaborated on the counting trick by bringing cocky along",
+          "hyp_norm": "daughtry elaborated on the counting trick by bringing cokie along",
+          "sample_wer": 0.1,
+          "sample_cer": 0.046153846153846156
+        },
+        {
+          "utt_id": "THV_arctic_a0586",
+          "speaker": "THV",
+          "ref_raw": "We don't see ourselves as foolish",
+          "hyp_raw": "We don't see ourselves as wounded",
+          "ref_norm": "we do not see ourselves as foolish",
+          "hyp_norm": "we do not see ourselves as wounded",
+          "sample_wer": 0.14285714285714285,
+          "sample_cer": 0.17647058823529413
+        },
+        {
+          "utt_id": "THV_arctic_b0013",
+          "speaker": "THV",
+          "ref_raw": "Lakes and rivers hundreds of them thousands of them",
+          "hyp_raw": "Lakes and rivers hundreds of them thousands of them",
+          "ref_norm": "lakes and rivers 100s of them 1000s of them",
+          "hyp_norm": "lakes and rivers 100s of them 1000s of them",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0023",
+          "speaker": "THV",
+          "ref_raw": "MacDougall my engineer believes it",
+          "hyp_raw": "MacDougall my engineer believes it",
+          "ref_norm": "macdougall my engineer believes it",
+          "hyp_norm": "macdougall my engineer believes it",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0032",
+          "speaker": "THV",
+          "ref_raw": "He caught himself with a jerk",
+          "hyp_raw": "He caught himself with a jerk",
+          "ref_norm": "he caught himself with a jerk",
+          "hyp_norm": "he caught himself with a jerk",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0051",
+          "speaker": "THV",
+          "ref_raw": "The sixth day he spent in the cabin with Gregson",
+          "hyp_raw": "The sixth day he spent in the cabin with Gregson",
+          "ref_norm": "the 6th day he spent in the cabin with gregson",
+          "hyp_norm": "the 6th day he spent in the cabin with gregson",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0080",
+          "speaker": "THV",
+          "ref_raw": "Tomorrow it will be strong enough for you to stand upon",
+          "hyp_raw": "Tomorrow it will be strong enough for you to stand still Paul",
+          "ref_norm": "tomorrow it will be strong enough for you to stand upon",
+          "hyp_norm": "tomorrow it will be strong enough for you to stand still paul",
+          "sample_wer": 0.18181818181818182,
+          "sample_cer": 0.16363636363636364
+        },
+        {
+          "utt_id": "THV_arctic_b0092",
+          "speaker": "THV",
+          "ref_raw": "I want to die in it",
+          "hyp_raw": "I want to die in it",
+          "ref_norm": "i want to die in it",
+          "hyp_norm": "i want to die in it",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0169",
+          "speaker": "THV",
+          "ref_raw": "He drew in a deep breath as he looked at them",
+          "hyp_raw": "He drew in a deep breath as he looked at them",
+          "ref_norm": "he drew in a deep breath as he looked at them",
+          "hyp_norm": "he drew in a deep breath as he looked at them",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0177",
+          "speaker": "THV",
+          "ref_raw": "Her gray eyes were flashing and her lips were quivering",
+          "hyp_raw": "Her gray eyes were flashing and her lips were quivering",
+          "ref_norm": "her gray eyes were flashing and her lips were quivering",
+          "hyp_norm": "her gray eyes were flashing and her lips were quivering",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0182",
+          "speaker": "THV",
+          "ref_raw": "I was in New York when the crash came",
+          "hyp_raw": "I was in New York when the crash came",
+          "ref_norm": "i was in new york when the crash came",
+          "hyp_norm": "i was in new york when the crash came",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0198",
+          "speaker": "THV",
+          "ref_raw": "I use great trouble advisedly",
+          "hyp_raw": "I use great trouble adversely",
+          "ref_norm": "i use great trouble advisedly",
+          "hyp_norm": "i use great trouble adversely",
+          "sample_wer": 0.2,
+          "sample_cer": 0.10344827586206896
+        },
+        {
+          "utt_id": "THV_arctic_b0217",
+          "speaker": "THV",
+          "ref_raw": "Such is my passage engaged on the steamer",
+          "hyp_raw": "Such is my best interest on the steamer",
+          "ref_norm": "such is my passage engaged on the steamer",
+          "hyp_norm": "such is my best interest on the steamer",
+          "sample_wer": 0.25,
+          "sample_cer": 0.2926829268292683
+        },
+        {
+          "utt_id": "THV_arctic_b0247",
+          "speaker": "THV",
+          "ref_raw": "He wanted to give the finish to this foe already so far gone",
+          "hyp_raw": "He wanted to give the finish to this furry already so far gone",
+          "ref_norm": "he wanted to give the finish to this foe already so far gone",
+          "hyp_norm": "he wanted to give the finish to this furry already so far gone",
+          "sample_wer": 0.07692307692307693,
+          "sample_cer": 0.06666666666666667
+        },
+        {
+          "utt_id": "THV_arctic_b0300",
+          "speaker": "THV",
+          "ref_raw": "Does the old boy often go off at half cock that way",
+          "hyp_raw": "Does this old boy often go off as half cook that way",
+          "ref_norm": "does the old boy often go off at half cock that way",
+          "hyp_norm": "does this old boy often go off as half cook that way",
+          "sample_wer": 0.25,
+          "sample_cer": 0.0784313725490196
+        },
+        {
+          "utt_id": "THV_arctic_b0309",
+          "speaker": "THV",
+          "ref_raw": "Nor was Elam Harnish an exception",
+          "hyp_raw": "Nor was Eileen's harness an exception",
+          "ref_norm": "nor was elam harnish an exception",
+          "hyp_norm": "nor was eileen is harness an exception",
+          "sample_wer": 0.5,
+          "sample_cer": 0.2727272727272727
+        },
+        {
+          "utt_id": "THV_arctic_b0310",
+          "speaker": "THV",
+          "ref_raw": "A little treatment massage with some help from the doctor",
+          "hyp_raw": "A little treatment may have squeezed some help from the doctor",
+          "ref_norm": "a little treatment massage with some help from the doctor",
+          "hyp_norm": "a little treatment may have squeezed some help from the doctor",
+          "sample_wer": 0.3,
+          "sample_cer": 0.21052631578947367
+        },
+        {
+          "utt_id": "THV_arctic_b0330",
+          "speaker": "THV",
+          "ref_raw": "They only had a little thirty thousand dollar fire",
+          "hyp_raw": "They only had a little thirty thousand dollar fire",
+          "ref_norm": "they only had a little $30000 fire",
+          "hyp_norm": "they only had a little $30000 fire",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0349",
+          "speaker": "THV",
+          "ref_raw": "In such a tumbling of values was no time to sell",
+          "hyp_raw": "In such a tumbling of valleys was no time to sail",
+          "ref_norm": "in such a tumbling of values was no time to sell",
+          "hyp_norm": "in such a tumbling of valleys was no time to sail",
+          "sample_wer": 0.18181818181818182,
+          "sample_cer": 0.08333333333333333
+        },
+        {
+          "utt_id": "THV_arctic_b0356",
+          "speaker": "THV",
+          "ref_raw": "He loved to play Chinese lottery",
+          "hyp_raw": "He loved to play Chinese lottery",
+          "ref_norm": "he loved to play chinese lottery",
+          "hyp_norm": "he loved to play chinese lottery",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0376",
+          "speaker": "THV",
+          "ref_raw": "Thought I and a worthy fool he proved",
+          "hyp_raw": "Thoughts are and are worthy food he proved",
+          "ref_norm": "thought i and a worthy fool he proved",
+          "hyp_norm": "thoughts are and are worthy food he proved",
+          "sample_wer": 0.5,
+          "sample_cer": 0.1891891891891892
+        },
+        {
+          "utt_id": "THV_arctic_b0378",
+          "speaker": "THV",
+          "ref_raw": "I like to speculate upon the glorious future of man",
+          "hyp_raw": "I like to speculate upon the glorious future of man",
+          "ref_norm": "i like to speculate upon the glorious future of man",
+          "hyp_norm": "i like to speculate upon the glorious future of man",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0383",
+          "speaker": "THV",
+          "ref_raw": "A bush chief had died a natural death",
+          "hyp_raw": "A bush sheep had died a natural death",
+          "ref_norm": "a bush chief had died a natural death",
+          "hyp_norm": "a bush sheep had died a natural death",
+          "sample_wer": 0.125,
+          "sample_cer": 0.08108108108108109
+        },
+        {
+          "utt_id": "THV_arctic_b0406",
+          "speaker": "THV",
+          "ref_raw": "How in hell did he know it was you in the dark",
+          "hyp_raw": "How in hell did he know it was you in the dark",
+          "ref_norm": "how in hell did he know it was you in the dark",
+          "hyp_norm": "how in hell did he know it was you in the dark",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0445",
+          "speaker": "THV",
+          "ref_raw": "Mops sir eagerly answered the sailor at the wheel",
+          "hyp_raw": "Mob sir eagerly answered the sailor at the wheel",
+          "ref_norm": "mops sir eagerly answered the sailor at the wheel",
+          "hyp_norm": "mob sir eagerly answered the sailor at the wheel",
+          "sample_wer": 0.1111111111111111,
+          "sample_cer": 0.04081632653061224
+        },
+        {
+          "utt_id": "THV_arctic_b0450",
+          "speaker": "THV",
+          "ref_raw": "To my dearest and always appreciated friend I submit myself",
+          "hyp_raw": "To my dearest and always appreciated friend I submit myself",
+          "ref_norm": "to my dearest and always appreciated friend i submit myself",
+          "hyp_norm": "to my dearest and always appreciated friend i submit myself",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "THV_arctic_b0527",
+          "speaker": "THV",
+          "ref_raw": "The very idea of it was preposterous",
+          "hyp_raw": "The very idea of it was preposterous",
+          "ref_norm": "the very idea of it was preposterous",
+          "hyp_norm": "the very idea of it was preposterous",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0013",
+          "speaker": "TLV",
+          "ref_raw": "He was a head shorter than his companion of almost delicate physique",
+          "hyp_raw": "He was a head shorter than his companion of almost dedicated his physique",
+          "ref_norm": "he was a head shorter than his companion of almost delicate physique",
+          "hyp_norm": "he was a head shorter than his companion of almost dedicated his physique",
+          "sample_wer": 0.16666666666666666,
+          "sample_cer": 0.08823529411764706
+        },
+        {
+          "utt_id": "TLV_arctic_a0018",
+          "speaker": "TLV",
+          "ref_raw": "There was a change now",
+          "hyp_raw": "They were exchanged now",
+          "ref_norm": "there was a change now",
+          "hyp_norm": "they were exchanged now",
+          "sample_wer": 0.8,
+          "sample_cer": 0.36363636363636365
+        },
+        {
+          "utt_id": "TLV_arctic_a0023",
+          "speaker": "TLV",
+          "ref_raw": "A combination of Canadian capital quickly organized and petitioned for the same privileges",
+          "hyp_raw": "A combination of Canadian capital quickly organized and petitioned for the same privilege",
+          "ref_norm": "a combination of canadian capital quickly organized and petitioned for the same privileges",
+          "hyp_norm": "a combination of canadian capital quickly organized and petitioned for the same privilege",
+          "sample_wer": 0.07692307692307693,
+          "sample_cer": 0.011111111111111112
+        },
+        {
+          "utt_id": "TLV_arctic_a0034",
+          "speaker": "TLV",
+          "ref_raw": "Men of Selden's stamp don't stop at women and children",
+          "hyp_raw": "Men of southern system don't stop at women and children",
+          "ref_norm": "men of selden is stamp do not stop at women and children",
+          "hyp_norm": "men of southern system do not stop at women and children",
+          "sample_wer": 0.25,
+          "sample_cer": 0.16071428571428573
+        },
+        {
+          "utt_id": "TLV_arctic_a0038",
+          "speaker": "TLV",
+          "ref_raw": "We'll have to watch our chances",
+          "hyp_raw": "We'll have to watch our chances",
+          "ref_norm": "we will have to watch our chances",
+          "hyp_norm": "we will have to watch our chances",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0049",
+          "speaker": "TLV",
+          "ref_raw": "Gregson was asleep when he reentered the cabin",
+          "hyp_raw": "Gregson was asleep when he reentered the cabin",
+          "ref_norm": "gregson was asleep when he reentered the cabin",
+          "hyp_norm": "gregson was asleep when he reentered the cabin",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0050",
+          "speaker": "TLV",
+          "ref_raw": "In spite of their absurdity the words affected Philip curiously",
+          "hyp_raw": "In spite of their absurdity the words affected Philip's curiosity",
+          "ref_norm": "in spite of their absurdity the words affected philip curiously",
+          "hyp_norm": "in spite of their absurdity the words affected philip is curiosity",
+          "sample_wer": 0.2,
+          "sample_cer": 0.09523809523809523
+        },
+        {
+          "utt_id": "TLV_arctic_a0090",
+          "speaker": "TLV",
+          "ref_raw": "The singing voice approached rapidly",
+          "hyp_raw": "The singing voice approached rapidly",
+          "ref_norm": "the singing voice approached rapidly",
+          "hyp_norm": "the singing voice approached rapidly",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0093",
+          "speaker": "TLV",
+          "ref_raw": "For a full minute he crouched and listened",
+          "hyp_raw": "For a full minute he scratched and listened",
+          "ref_norm": "for a full minute he crouched and listened",
+          "hyp_norm": "for a full minute he scratched and listened",
+          "sample_wer": 0.125,
+          "sample_cer": 0.07142857142857142
+        },
+        {
+          "utt_id": "TLV_arctic_a0108",
+          "speaker": "TLV",
+          "ref_raw": "He waded into the edge of the water and began scrubbing himself",
+          "hyp_raw": "He weighed into the edge of the water and began scrubbing himself",
+          "ref_norm": "he waded into the edge of the water and began scrubbing himself",
+          "hyp_norm": "he weighed into the edge of the water and began scrubbing himself",
+          "sample_wer": 0.08333333333333333,
+          "sample_cer": 0.06349206349206349
+        },
+        {
+          "utt_id": "TLV_arctic_a0150",
+          "speaker": "TLV",
+          "ref_raw": "Goodbye Pierre he shouted",
+          "hyp_raw": "Goodbye Pierre he shouted",
+          "ref_norm": "goodbye pierre he shouted",
+          "hyp_norm": "goodbye pierre he shouted",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0158",
+          "speaker": "TLV",
+          "ref_raw": "Does that look good",
+          "hyp_raw": "Does that look good",
+          "ref_norm": "does that look good",
+          "hyp_norm": "does that look good",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0165",
+          "speaker": "TLV",
+          "ref_raw": "They are to attack your camp tomorrow night",
+          "hyp_raw": "They are to attack your camp tomorrow night",
+          "ref_norm": "they are to attack your camp tomorrow night",
+          "hyp_norm": "they are to attack your camp tomorrow night",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0201",
+          "speaker": "TLV",
+          "ref_raw": "He cried and swung the club wildly",
+          "hyp_raw": "He cried and swung the club wildly",
+          "ref_norm": "he cried and swung the club wildly",
+          "hyp_norm": "he cried and swung the club wildly",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0214",
+          "speaker": "TLV",
+          "ref_raw": "Besides he was paid one case of tobacco per head",
+          "hyp_raw": "Besides he was paid one case of tobacco per head",
+          "ref_norm": "besides he was paid one case of tobacco per head",
+          "hyp_norm": "besides he was paid one case of tobacco per head",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0262",
+          "speaker": "TLV",
+          "ref_raw": "They wouldn't be sweeping a big vessel like the Martha",
+          "hyp_raw": "They wouldn't be sweeping in a big vessel like the Martha",
+          "ref_norm": "they would not be sweeping a big vessel like the martha",
+          "hyp_norm": "they would not be sweeping in a big vessel like the martha",
+          "sample_wer": 0.09090909090909091,
+          "sample_cer": 0.05454545454545454
+        },
+        {
+          "utt_id": "TLV_arctic_a0278",
+          "speaker": "TLV",
+          "ref_raw": "It would give me nervous prostration",
+          "hyp_raw": "It would give me nervous persuasion",
+          "ref_norm": "it would give me nervous prostration",
+          "hyp_norm": "it would give me nervous persuasion",
+          "sample_wer": 0.16666666666666666,
+          "sample_cer": 0.1388888888888889
+        },
+        {
+          "utt_id": "TLV_arctic_a0283",
+          "speaker": "TLV",
+          "ref_raw": "The woman in you is only incidental accidental and irrelevant",
+          "hyp_raw": "The woman in you is only incidental accidental and irrelevant",
+          "ref_norm": "the woman in you is only incidental accidental and irrelevant",
+          "hyp_norm": "the woman in you is only incidental accidental and irrelevant",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0366",
+          "speaker": "TLV",
+          "ref_raw": "A wildly exciting time was his during the week preceding Thursday the eighteenth",
+          "hyp_raw": "A wildly exciting time was hit during the week preceding Thursday the eighteenth",
+          "ref_norm": "a wildly exciting time was his during the week preceding thursday the 18th",
+          "hyp_norm": "a wildly exciting time was hit during the week preceding thursday the 18th",
+          "sample_wer": 0.07692307692307693,
+          "sample_cer": 0.013513513513513514
+        },
+        {
+          "utt_id": "TLV_arctic_a0404",
+          "speaker": "TLV",
+          "ref_raw": "Perrault found one with head buried in the grub box",
+          "hyp_raw": "Burro found one with head buried in the grub box",
+          "ref_norm": "perrault found one with head buried in the grub box",
+          "hyp_norm": "burro found one with head buried in the grub box",
+          "sample_wer": 0.1,
+          "sample_cer": 0.11764705882352941
+        },
+        {
+          "utt_id": "TLV_arctic_a0424",
+          "speaker": "TLV",
+          "ref_raw": "Obviously it was a disease that could be contracted by contact",
+          "hyp_raw": "Obviously it was a disease that could be contracted by contact",
+          "ref_norm": "obviously it was a disease that could be contracted by contact",
+          "hyp_norm": "obviously it was a disease that could be contracted by contact",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0429",
+          "speaker": "TLV",
+          "ref_raw": "Quick was the disappointment in his face yet smiling was the acquiescence",
+          "hyp_raw": "Quick were disappointments in his face yet smiling were the acquiescence",
+          "ref_norm": "quick was the disappointment in his face yet smiling was the acquiescence",
+          "hyp_norm": "quick were disappointments in his face yet smiling were the acquiescence",
+          "sample_wer": 0.3333333333333333,
+          "sample_cer": 0.1232876712328767
+        },
+        {
+          "utt_id": "TLV_arctic_a0455",
+          "speaker": "TLV",
+          "ref_raw": "I obeyed and a minute or two later they stood before him",
+          "hyp_raw": "I obeyed and a minute or two later they stood before him",
+          "ref_norm": "i obeyed and a minute or 2 later they stood before him",
+          "hyp_norm": "i obeyed and a minute or 2 later they stood before him",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0509",
+          "speaker": "TLV",
+          "ref_raw": "Yet in accordance with Ernest's test of truth it worked",
+          "hyp_raw": "Yet it's accordance with Ernest says the truth it's worth",
+          "ref_norm": "yet in accordance with ernest is test of truth it worked",
+          "hyp_norm": "yet it is accordance with ernest says the truth it is worth",
+          "sample_wer": 0.6363636363636364,
+          "sample_cer": 0.32142857142857145
+        },
+        {
+          "utt_id": "TLV_arctic_a0511",
+          "speaker": "TLV",
+          "ref_raw": "There is more behind this than a mere university ideal",
+          "hyp_raw": "There is more behind this than a Merce University ideal",
+          "ref_norm": "there is more behind this than a mere university ideal",
+          "hyp_norm": "there is more behind this than a merce university ideal",
+          "sample_wer": 0.1,
+          "sample_cer": 0.018518518518518517
+        },
+        {
+          "utt_id": "TLV_arctic_a0512",
+          "speaker": "TLV",
+          "ref_raw": "No it is a palace wherein there are many servants",
+          "hyp_raw": "No it is a palace where they are mainly servants",
+          "ref_norm": "no it is a palace wherein there are many servants",
+          "hyp_norm": "no it is a palace where they are mainly servants",
+          "sample_wer": 0.3,
+          "sample_cer": 0.12244897959183673
+        },
+        {
+          "utt_id": "TLV_arctic_a0529",
+          "speaker": "TLV",
+          "ref_raw": "As I say he had tapped the message very rapidly",
+          "hyp_raw": "As I say he had stopped the message very rapidly",
+          "ref_norm": "as i say he had tapped the message very rapidly",
+          "hyp_norm": "as i say he had stopped the message very rapidly",
+          "sample_wer": 0.1,
+          "sample_cer": 0.0425531914893617
+        },
+        {
+          "utt_id": "TLV_arctic_a0540",
+          "speaker": "TLV",
+          "ref_raw": "Yea so are all the lesser animals of today clean",
+          "hyp_raw": "Yes so are all the lesser animals up to date clean",
+          "ref_norm": "yea so are all the lesser animals of today clean",
+          "hyp_norm": "yes so are all the lesser animals up to date clean",
+          "sample_wer": 0.4,
+          "sample_cer": 0.125
+        },
+        {
+          "utt_id": "TLV_arctic_a0578",
+          "speaker": "TLV",
+          "ref_raw": "But we'll just postpone this",
+          "hyp_raw": "But will just be pondered",
+          "ref_norm": "but we will just postpone this",
+          "hyp_norm": "but will just be pondered",
+          "sample_wer": 0.5,
+          "sample_cer": 0.43333333333333335
+        },
+        {
+          "utt_id": "TLV_arctic_a0580",
+          "speaker": "TLV",
+          "ref_raw": "This is my fifth voyage",
+          "hyp_raw": "This is my fifth voyage",
+          "ref_norm": "this is my 5th voyage",
+          "hyp_norm": "this is my 5th voyage",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_a0582",
+          "speaker": "TLV",
+          "ref_raw": "Daughtry elaborated on the counting trick by bringing Cocky along",
+          "hyp_raw": "Dark Street elaborated on the counting trick by bringing Cokie along",
+          "ref_norm": "daughtry elaborated on the counting trick by bringing cocky along",
+          "hyp_norm": "dark street elaborated on the counting trick by bringing cokie along",
+          "sample_wer": 0.3,
+          "sample_cer": 0.15384615384615385
+        },
+        {
+          "utt_id": "TLV_arctic_a0586",
+          "speaker": "TLV",
+          "ref_raw": "We don't see ourselves as foolish",
+          "hyp_raw": "We don't see ourselves as foolish",
+          "ref_norm": "we do not see ourselves as foolish",
+          "hyp_norm": "we do not see ourselves as foolish",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_b0013",
+          "speaker": "TLV",
+          "ref_raw": "Lakes and rivers hundreds of them thousands of them",
+          "hyp_raw": "Legs and rivers hundreds of them thousands of them",
+          "ref_norm": "lakes and rivers 100s of them 1000s of them",
+          "hyp_norm": "legs and rivers 100s of them 1000s of them",
+          "sample_wer": 0.1111111111111111,
+          "sample_cer": 0.06976744186046512
+        },
+        {
+          "utt_id": "TLV_arctic_b0023",
+          "speaker": "TLV",
+          "ref_raw": "MacDougall my engineer believes it",
+          "hyp_raw": "MacDougall my engineer believed it",
+          "ref_norm": "macdougall my engineer believes it",
+          "hyp_norm": "macdougall my engineer believed it",
+          "sample_wer": 0.2,
+          "sample_cer": 0.029411764705882353
+        },
+        {
+          "utt_id": "TLV_arctic_b0032",
+          "speaker": "TLV",
+          "ref_raw": "He caught himself with a jerk",
+          "hyp_raw": "He caught himself with a joke",
+          "ref_norm": "he caught himself with a jerk",
+          "hyp_norm": "he caught himself with a joke",
+          "sample_wer": 0.16666666666666666,
+          "sample_cer": 0.10344827586206896
+        },
+        {
+          "utt_id": "TLV_arctic_b0051",
+          "speaker": "TLV",
+          "ref_raw": "The sixth day he spent in the cabin with Gregson",
+          "hyp_raw": "The sixth day he spent in the cabin with Gregson",
+          "ref_norm": "the 6th day he spent in the cabin with gregson",
+          "hyp_norm": "the 6th day he spent in the cabin with gregson",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_b0080",
+          "speaker": "TLV",
+          "ref_raw": "Tomorrow it will be strong enough for you to stand upon",
+          "hyp_raw": "Tomorrow it will be strong enough for you to stand open",
+          "ref_norm": "tomorrow it will be strong enough for you to stand upon",
+          "hyp_norm": "tomorrow it will be strong enough for you to stand open",
+          "sample_wer": 0.09090909090909091,
+          "sample_cer": 0.03636363636363636
+        },
+        {
+          "utt_id": "TLV_arctic_b0092",
+          "speaker": "TLV",
+          "ref_raw": "I want to die in it",
+          "hyp_raw": "I want to die in it",
+          "ref_norm": "i want to die in it",
+          "hyp_norm": "i want to die in it",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_b0169",
+          "speaker": "TLV",
+          "ref_raw": "He drew in a deep breath as he looked at them",
+          "hyp_raw": "He drew in a deep breath as he looked at them",
+          "ref_norm": "he drew in a deep breath as he looked at them",
+          "hyp_norm": "he drew in a deep breath as he looked at them",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_b0177",
+          "speaker": "TLV",
+          "ref_raw": "Her gray eyes were flashing and her lips were quivering",
+          "hyp_raw": "Her gray eyes were flashing and her lips were withering",
+          "ref_norm": "her gray eyes were flashing and her lips were quivering",
+          "hyp_norm": "her gray eyes were flashing and her lips were withering",
+          "sample_wer": 0.1,
+          "sample_cer": 0.07272727272727272
+        },
+        {
+          "utt_id": "TLV_arctic_b0182",
+          "speaker": "TLV",
+          "ref_raw": "I was in New York when the crash came",
+          "hyp_raw": "I was in New York when she crashed the game",
+          "ref_norm": "i was in new york when the crash came",
+          "hyp_norm": "i was in new york when she crashed the game",
+          "sample_wer": 0.4444444444444444,
+          "sample_cer": 0.21621621621621623
+        },
+        {
+          "utt_id": "TLV_arctic_b0198",
+          "speaker": "TLV",
+          "ref_raw": "I use great trouble advisedly",
+          "hyp_raw": "I use great trouble advice",
+          "ref_norm": "i use great trouble advisedly",
+          "hyp_norm": "i use great trouble advice",
+          "sample_wer": 0.2,
+          "sample_cer": 0.13793103448275862
+        },
+        {
+          "utt_id": "TLV_arctic_b0217",
+          "speaker": "TLV",
+          "ref_raw": "Such is my passage engaged on the steamer",
+          "hyp_raw": "Such in my passage engaged all the steamer",
+          "ref_norm": "such is my passage engaged on the steamer",
+          "hyp_norm": "such in my passage engaged all the steamer",
+          "sample_wer": 0.25,
+          "sample_cer": 0.0975609756097561
+        },
+        {
+          "utt_id": "TLV_arctic_b0247",
+          "speaker": "TLV",
+          "ref_raw": "He wanted to give the finish to this foe already so far gone",
+          "hyp_raw": "He want to give a finish to this foe already so vagone",
+          "ref_norm": "he wanted to give the finish to this foe already so far gone",
+          "hyp_norm": "he want to give a finish to this foe already so vagone",
+          "sample_wer": 0.3076923076923077,
+          "sample_cer": 0.13333333333333333
+        },
+        {
+          "utt_id": "TLV_arctic_b0300",
+          "speaker": "TLV",
+          "ref_raw": "Does the old boy often go off at half cock that way",
+          "hyp_raw": "The old boy often goes off and has cogs that way",
+          "ref_norm": "does the old boy often go off at half cock that way",
+          "hyp_norm": "the old boy often goes off and has cogs that way",
+          "sample_wer": 0.4166666666666667,
+          "sample_cer": 0.2549019607843137
+        },
+        {
+          "utt_id": "TLV_arctic_b0309",
+          "speaker": "TLV",
+          "ref_raw": "Nor was Elam Harnish an exception",
+          "hyp_raw": "Nor was Elam harness an exception",
+          "ref_norm": "nor was elam harnish an exception",
+          "hyp_norm": "nor was elam harness an exception",
+          "sample_wer": 0.16666666666666666,
+          "sample_cer": 0.06060606060606061
+        },
+        {
+          "utt_id": "TLV_arctic_b0310",
+          "speaker": "TLV",
+          "ref_raw": "A little treatment massage with some help from the doctor",
+          "hyp_raw": "A little treatment method with some help from the doctor",
+          "ref_norm": "a little treatment massage with some help from the doctor",
+          "hyp_norm": "a little treatment method with some help from the doctor",
+          "sample_wer": 0.1,
+          "sample_cer": 0.10526315789473684
+        },
+        {
+          "utt_id": "TLV_arctic_b0330",
+          "speaker": "TLV",
+          "ref_raw": "They only had a little thirty thousand dollar fire",
+          "hyp_raw": "They only had a little thirty thousand dollars to file",
+          "ref_norm": "they only had a little $30000 fire",
+          "hyp_norm": "they only had a little $30000 to file",
+          "sample_wer": 0.2857142857142857,
+          "sample_cer": 0.11764705882352941
+        },
+        {
+          "utt_id": "TLV_arctic_b0349",
+          "speaker": "TLV",
+          "ref_raw": "In such a tumbling of values was no time to sell",
+          "hyp_raw": "In such a plumbly of value there was no time to sail",
+          "ref_norm": "in such a tumbling of values was no time to sell",
+          "hyp_norm": "in such a plumbly of value there was no time to sail",
+          "sample_wer": 0.36363636363636365,
+          "sample_cer": 0.2708333333333333
+        },
+        {
+          "utt_id": "TLV_arctic_b0356",
+          "speaker": "TLV",
+          "ref_raw": "He loved to play Chinese lottery",
+          "hyp_raw": "He loved to play Chinese lottery",
+          "ref_norm": "he loved to play chinese lottery",
+          "hyp_norm": "he loved to play chinese lottery",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_b0376",
+          "speaker": "TLV",
+          "ref_raw": "Thought I and a worthy fool he proved",
+          "hyp_raw": "Thorpe's eyes and a costly fool he grew",
+          "ref_norm": "thought i and a worthy fool he proved",
+          "hyp_norm": "thorpe is eyes and a costly fool he grew",
+          "sample_wer": 0.625,
+          "sample_cer": 0.4594594594594595
+        },
+        {
+          "utt_id": "TLV_arctic_b0378",
+          "speaker": "TLV",
+          "ref_raw": "I like to speculate upon the glorious future of man",
+          "hyp_raw": "I like to speculate upon the glorious future of man",
+          "ref_norm": "i like to speculate upon the glorious future of man",
+          "hyp_norm": "i like to speculate upon the glorious future of man",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_b0383",
+          "speaker": "TLV",
+          "ref_raw": "A bush chief had died a natural death",
+          "hyp_raw": "A bush chief had died a natural death",
+          "ref_norm": "a bush chief had died a natural death",
+          "hyp_norm": "a bush chief had died a natural death",
+          "sample_wer": 0.0,
+          "sample_cer": 0.0
+        },
+        {
+          "utt_id": "TLV_arctic_b0406",
+          "speaker": "TLV",
+          "ref_raw": "How in hell did he know it was you in the dark",
+          "hyp_raw": "How in the hell did he know it was you in the dark",
+          "ref_norm": "how in hell did he know it was you in the dark",
+          "hyp_norm": "how in the hell did he know it was you in the dark",
+          "sample_wer": 0.08333333333333333,
+          "sample_cer": 0.08695652173913043
+        },
+        {
+          "utt_id": "TLV_arctic_b0445",
+          "speaker": "TLV",
+          "ref_raw": "Mops sir eagerly answered the sailor at the wheel",
+          "hyp_raw": "Mob sir eagerly answered the seller of the wheel",
+          "ref_norm": "mops sir eagerly answered the sailor at the wheel",
+          "hyp_norm": "mob sir eagerly answered the seller of the wheel",
+          "sample_wer": 0.3333333333333333,
+          "sample_cer": 0.14285714285714285
+        },
+        {
+          "utt_id": "TLV_arctic_b0450",
+          "speaker": "TLV",
+          "ref_raw": "To my dearest and always appreciated friend I submit myself",
+          "hyp_raw": "To my dearest and always appreciate friends I submit myself",
+          "ref_norm": "to my dearest and always appreciated friend i submit myself",
+          "hyp_norm": "to my dearest and always appreciate friends i submit myself",
+          "sample_wer": 0.2,
+          "sample_cer": 0.03389830508474576
+        },
+        {
+          "utt_id": "TLV_arctic_b0527",
+          "speaker": "TLV",
+          "ref_raw": "The very idea of it was preposterous",
+          "hyp_raw": "The very idea of it was reparture",
+          "ref_norm": "the very idea of it was preposterous",
+          "hyp_norm": "the very idea of it was reparture",
+          "sample_wer": 0.14285714285714285,
+          "sample_cer": 0.19444444444444445
+        }
+      ]
+    },
+    "suitcase": {
+      "split": "suitcase",
+      "n_utts": 9,
+      "decode_time_s": 1.58,
+      "wer": 20.53,
+      "cer": 11.03,
+      "speaker_results": {
+        "HQTV": {
+          "wer": 6.0,
+          "cer": 4.45,
+          "n_utts": 1
+        },
+        "PNV": {
+          "wer": 5.88,
+          "cer": 3.35,
+          "n_utts": 3
+        },
+        "THV": {
+          "wer": 36.49,
+          "cer": 16.62,
+          "n_utts": 2
+        },
+        "TLV": {
+          "wer": 29.57,
+          "cer": 17.52,
+          "n_utts": 3
+        }
+      },
+      "gender_results": {
+        "M (HQTV+TLV)": {
+          "wer": 22.42,
+          "cer": 13.55,
+          "n_utts": 4
+        },
+        "F (PNV+THV)": {
+          "wer": 18.75,
+          "cer": 8.79,
+          "n_utts": 5
+        }
+      },
+      "samples": [
+        {
+          "utt_id": "suitcase_hqtv_0",
+          "speaker": "HQTV",
+          "ref_raw": "so this is story about two persons one female one male who just uh walk on the street and they meet each other but accidentally they pick up the wrong briefcase and they recognize that they make it wrong when they get home and that's it sorry i'm not",
+          "hyp_raw": "So this is a story about two persons one female one male who just work on the street and they meet each other but accidentally they pick up the wrong preschool and they recognize that they make it wrong when they get home and that's it sorry I'm not",
+          "ref_norm": "so this is story about 2 persons one female one male who just walk on the street and they meet each other but accidentally they pick up the wrong briefcase and they recognize that they make it wrong when they get home and that is it sorry i am not",
+          "hyp_norm": "so this is a story about 2 persons one female one male who just work on the street and they meet each other but accidentally they pick up the wrong preschool and they recognize that they make it wrong when they get home and that is it sorry i am not",
+          "sample_wer": 0.06,
+          "sample_cer": 0.044534412955465584
+        },
+        {
+          "utt_id": "suitcase_pnv_0",
+          "speaker": "PNV",
+          "ref_raw": "so um in a very big city um two people um ` a man and a woman were carrying um their suitcases which are both green and um which looked very similar um however as they were crossing um it was cornering um they bumped into each",
+          "hyp_raw": "So in a very big city two people a man and a woman were carrying their suitcases which are both green and which looked very similar however as they were crossing they were cornering they bumped into each",
+          "ref_norm": "so in a very big city 2 people a man and a woman were carrying their suitcases which are both green and which looked very similar however as they were crossing it was cornering they bumped into each",
+          "hyp_norm": "so in a very big city 2 people a man and a woman were carrying their suitcases which are both green and which looked very similar however as they were crossing they were cornering they bumped into each",
+          "sample_wer": 0.05263157894736842,
+          "sample_cer": 0.03535353535353535
+        },
+        {
+          "utt_id": "suitcase_pnv_1",
+          "speaker": "PNV",
+          "ref_raw": "other um and then they um picked up their own suitcase and went separate ways after that after the man uh came back to his hotel he found out that his suitcase contained um women um clothes actually a red dress obviously um that",
+          "hyp_raw": " other and then they picked up their own suitcase and went separate ways after that after the man came back to his hotel he found out that his suitcase contained women clothes actually a red dress obviously that's",
+          "ref_norm": "other and then they picked up their own suitcase and went separate ways after that after the man came back to his hotel he found out that his suitcase contained women clothes actually a red dress obviously that",
+          "hyp_norm": "other and then they picked up their own suitcase and went separate ways after that after the man came back to his hotel he found out that his suitcase contained women clothes actually a red dress obviously that is",
+          "sample_wer": 0.02631578947368421,
+          "sample_cer": 0.014285714285714285
+        },
+        {
+          "utt_id": "suitcase_pnv_2",
+          "speaker": "PNV",
+          "ref_raw": "suitcase was not his and similarly the woman found out that uh she had a tie in her suitcase so um so they picked up the wrong suitcase",
+          "hyp_raw": "The suitcase was not his and similarly the women found out that she had a tie in her suitcase so they picked up the wrong suitcase",
+          "ref_norm": "suitcase was not his and similarly the woman found out that she had a tie in her suitcase so so they picked up the wrong suitcase",
+          "hyp_norm": "the suitcase was not his and similarly the women found out that she had a tie in her suitcase so they picked up the wrong suitcase",
+          "sample_wer": 0.11538461538461539,
+          "sample_cer": 0.06201550387596899
+        },
+        {
+          "utt_id": "suitcase_thv_0",
+          "speaker": "THV",
+          "ref_raw": "so this is a high building and it was busy if their work and the woman and a man they just turned in the corner and then bumped each other so there is little bit very hard to recognizing that the their suitcase is exchanged together and when they just recognize when they got home so the man opened the",
+          "hyp_raw": "So this is a high building and people are busy at their work and there are women and men they just turn in the corner and they pump each other so they're a little bit very hard to recognize in that their suitcase is exchanged together and when they just recognized when they got home so the men over the",
+          "ref_norm": "so this is a high building and it was busy if their work and the woman and a man they just turned in the corner and then bumped each other so there is little bit very hard to recognizing that the their suitcase is exchanged together and when they just recognize when they got home so the man opened the",
+          "hyp_norm": "so this is a high building and people are busy at their work and there are women and men they just turn in the corner and they pump each other so they are a little bit very hard to recognize in that their suitcase is exchanged together and when they just recognized when they got home so the men over the",
+          "sample_wer": 0.3333333333333333,
+          "sample_cer": 0.1490066225165563
+        },
+        {
+          "utt_id": "suitcase_thv_1",
+          "speaker": "THV",
+          "ref_raw": "suitcase wow what this that a woman clothes and the same with the woman",
+          "hyp_raw": "So you say wow what's that that the woman clothed and the same with the woman",
+          "ref_norm": "suitcase wow what this that a woman clothes and the same with the woman",
+          "hyp_norm": "so you say wow what is that that the woman clothed and the same with the woman",
+          "sample_wer": 0.5,
+          "sample_cer": 0.23943661971830985
+        },
+        {
+          "utt_id": "suitcase_tlv_0",
+          "speaker": "TLV",
+          "ref_raw": "so in a a big city there is a man and a woman who walking down the streets and they suddenly um hits each other at a corner of a building um and then they they continue walking with their suitcase um until they go until they arrive their",
+          "hyp_raw": "So in a big city there's a man and a woman who work in a street and they suddenly hit each other at the corner of a building and then they continued working with their suitcase until they arrived",
+          "ref_norm": "so in a a big city there is a man and a woman who walking down the streets and they suddenly hits each other at a corner of a building and then they they continue walking with their suitcase until they go until they arrive their",
+          "hyp_norm": "so in a big city there is a man and a woman who work in a street and they suddenly hit each other at the corner of a building and then they continued working with their suitcase until they arrived",
+          "sample_wer": 0.32608695652173914,
+          "sample_cer": 0.20175438596491227
+        },
+        {
+          "utt_id": "suitcase_tlv_1",
+          "speaker": "TLV",
+          "ref_raw": "home they feel how that or they just um mix up their suitcase they um like the man get the suitcase of the woman and the woman get the suitcase of the man uh the man figure out that there were dress dress in the suitcase uh the the woman dress in the suitcase and uh the the woman found the",
+          "hyp_raw": "At home they figure out that or they just mix up their suitcase they like the men get the suitcase of the woman and the woman get the suitcase of the man the man figure out that they were dressed in the suitcase the woman dressed in the suitcase and the woman found",
+          "ref_norm": "home they feel how that or they just mix up their suitcase they like the man get the suitcase of the woman and the woman get the suitcase of the man the man figure out that there were dress dress in the suitcase the the woman dress in the suitcase and the the woman found the",
+          "hyp_norm": "at home they figure out that or they just mix up their suitcase they like the men get the suitcase of the woman and the woman get the suitcase of the man the man figure out that they were dressed in the suitcase the woman dressed in the suitcase and the woman found",
+          "sample_wer": 0.19642857142857142,
+          "sample_cer": 0.12
+        },
+        {
+          "utt_id": "suitcase_tlv_2",
+          "speaker": "TLV",
+          "ref_raw": "the yellow stripe cravat or ties of the man in in the suitcase",
+          "hyp_raw": "The yellow striped caravans are the tyrants of men in the suitcase",
+          "ref_norm": "the yellow stripe cravat or ties of the man in in the suitcase",
+          "hyp_norm": "the yellow striped caravans are the tyrants of men in the suitcase",
+          "sample_wer": 0.6153846153846154,
+          "sample_cer": 0.3225806451612903
+        }
+      ]
+    }
+  }
+}

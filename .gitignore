@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+.venv/
+.venv*/
+env/
+venv/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.token
+
+# Raw Dataset, Processed Data, & Audio Files
+corpus/
+data/
+*.wav
+*.mp3
+*.flac
+*.zip
+
+# Standalone Models & LoRA Runs (Hosted on Hugging Face Hub: huggingface.co/Grenmango)
+models/
+runs/
+checkpoints/
+output/
+wandb/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Hugging Face Deployment & Sync Scripts
+*push_to_hf.py
+*update_model_cards.py
+
+# Cache & Temporary Files
+.cache/
+.pytest_cache/
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

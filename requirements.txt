@@ -1,0 +1,11 @@
+transformers
+peft
+accelerate
+jiwer
+soundfile
+soxr
+praatio
+tensorboard
+numpy
+pandas
+tqdm

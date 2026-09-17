@@ -1,0 +1,11 @@
+{
+  "batch_size": 8,
+  "grad_accum": 2,
+  "effective_batch": 16,
+  "epochs": 10,
+  "sec_per_step": 3.0097,
+  "peak_vram_gb": 3.8,
+  "eval_sec_per_utt": 0.1432,
+  "val_wer": 15.26,
+  "projected_hours": 2.16
+}

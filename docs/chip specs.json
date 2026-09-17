@@ -1,0 +1,25 @@
+{
+  "driver_version": "610.78",
+  "cuda_version": "13.3",
+  "gpus": [
+    {
+      "index": 0,
+      "name": "NVIDIA GeForce RTX 4060",
+      "driver_model": "WDDM",
+      "bus_id": "00000000:01:00.0",
+      "display_active": false,
+      "ecc": null,
+      "fan": null,
+      "temperature_c": 48,
+      "perf_state": "P0",
+      "power_w": 590,
+      "power_cap_w": 105,
+      "memory_used_mib": 0,
+      "memory_total_mib": 8188,
+      "gpu_util_percent": 0,
+      "compute_mode": "Default",
+      "mig_mode": null,
+      "processes": []
+    }
+  ]
+}
