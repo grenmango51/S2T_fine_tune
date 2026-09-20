@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal ARCTIC Recorder</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+      <h1 class="app-title">Personal ARCTIC Recorder</h1>
+      <span class="badge" id="speaker-badge">Speaker: PERSONAL</span>
+      <span class="badge" id="split-badge">Split: unassigned</span>
+      <span class="badge badge-success" id="lease-badge">Writer Lease: Active</span>
+      <span class="badge badge-warning" id="review-badge">Transcript Verification: unreviewed</span>
+    </div>
+
+    <div class="header-stats">
+      <div class="stat-item">
+        <span class="stat-label">Kept Prompts</span>
+        <span class="stat-val" id="kept-count">0 / 1132</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">Pending Uploads</span>
+        <span class="stat-val" id="pending-count">0</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">Server Takes</span>
+        <span class="stat-val" id="server-takes-count">0</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="top-bar">
+    <div class="device-group">
+      <button id="btn-mic-enable" class="btn-primary">Enable Microphone</button>
+      <select id="mic-select" disabled>
+        <option value="">(Microphone not initialized)</option>
+      </select>
+      <span id="audio-settings-label" class="badge">Rate: -- Hz</span>
+    </div>
+
+    <div class="device-group">
+      <button id="btn-pause-session" title="Finalize take and release mic [Esc]">
+        Pause Session <span class="key-hint">Esc</span>
+      </button>
+    </div>
+  </div>
+
+  <div id="alert-banner" class="alert-banner">
+    <span id="alert-message"></span>
+    <button id="btn-dismiss-alert">&times;</button>
+  </div>
+
+  <main>
+    <!-- Prompt Display Card -->
+    <div class="prompt-card">
+      <div class="prompt-header">
+        <span class="sentence-id" id="current-sentence-id">arctic_a0001</span>
+        <span class="badge" id="current-split-tag">Split: --</span>
+      </div>
+
+      <div class="sentence-text" id="current-prompt-text">
+        Loading prompts...
+      </div>
+
+      <div class="next-preview">
+        <span class="next-label">Next</span>
+        <span id="next-prompt-preview">--</span>
+      </div>
+    </div>
+
+    <!-- Monitor & VU Meter -->
+    <div class="recording-monitor">
+      <div class="monitor-top">
+        <div class="status-indicator" id="status-indicator">
+          <div class="status-dot"></div>
+          <span id="status-text">Ready</span>
+        </div>
+        <div class="timer-display" id="timer-display">00:00.0 / 01:00</div>
+      </div>
+
+      <div class="meter-track">
+        <div class="meter-fill" id="meter-fill"></div>
+      </div>
+    </div>
+
+    <!-- Main Action Buttons -->
+    <div class="action-controls">
+      <button id="btn-record" class="btn-large btn-danger" disabled>
+        <span>Record Take</span>
+        <span class="key-hint">Space</span>
+      </button>
+
+      <button id="btn-keep" class="btn-large btn-primary" disabled>
+        <span>Keep & Advance</span>
+        <span class="key-hint">Enter</span>
+      </button>
+
+      <button id="btn-retake" class="btn-large" disabled>
+        <span>Retake</span>
+        <span class="key-hint">R</span>
+      </button>
+
+      <button id="btn-playback" class="btn-large" disabled>
+        <span>Replay</span>
+        <span class="key-hint">P</span>
+      </button>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+      <div class="nav-left">
+        <button id="btn-prev" disabled>&larr; Previous</button>
+        <button id="btn-next" disabled>Next &rarr;</button>
+        <label style="font-size: 0.8rem; display: flex; align-items: center; gap: 4px; cursor: pointer;">
+          <input type="checkbox" id="chk-skip-kept" checked> Skip Kept Prompts
+        </label>
+      </div>
+
+      <div class="nav-right">
+        <input type="text" id="input-jump" placeholder="Jump: arctic_a0001" style="width: 160px;">
+        <button id="btn-jump">Go</button>
+      </div>
+    </div>
+
+    <!-- Takes History / Review Drawer -->
+    <div class="takes-section">
+      <div class="takes-header">
+        <span>Recorded Takes for This Prompt</span>
+        <span id="takes-status-summary">0 takes</span>
+      </div>
+      <div class="takes-list" id="takes-list">
+        <div style="color: var(--text-muted); font-size: 0.85rem;">No takes recorded yet for this sentence.</div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Hidden audio element for playback -->
+  <audio id="playback-audio" style="display: none;"></audio>
+
+  <script src="/static/app.js?v=20260919-rerecord-queue-3"></script>
+</body>
+</html>
