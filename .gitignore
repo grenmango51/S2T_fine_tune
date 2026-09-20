@@ -1,51 +1,53 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# Virtual Environments
-.venv/
-.venv*/
-env/
-venv/
-ENV/
-
-# Environment Variables & Secrets
+# Local secrets (an example with empty values is safe to share)
 .env
 .env.*
+!.env.example
 *.token
 
-# Raw Dataset, Processed Data, & Audio Files
-corpus/
-data/
+# Local datasets and training artifacts; root-anchored to keep source packages
+/corpus/
+/data/
+/recordings/
+/models/
+/runs/
+/checkpoints/
+/output/
+/wandb/
+/.local/
+
+# Generated evaluation outputs; publish only curated aggregate documentation
+/reports/*
+!/reports/README.md
+
+# Python environments, caches, and build products
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.cache/
+*.egg-info/
+/build/
+/dist/
+*.log
+
+# Large binary assets
 *.wav
 *.mp3
 *.flac
 *.zip
-
-# Standalone Models & LoRA Runs (Hosted on Hugging Face Hub: huggingface.co/Grenmango)
-models/
-runs/
-checkpoints/
-output/
-wandb/
+*.tar
+*.tar.gz
+*.tar.bz2
 *.safetensors
 *.bin
 *.pt
 *.pth
+*.sqlite*
 
-# Hugging Face Deployment & Sync Scripts
-*push_to_hf.py
-*update_model_cards.py
-
-# Cache & Temporary Files
-.cache/
-.pytest_cache/
-*.log
-
-# IDE & OS
+# Editor / OS files
 .vscode/
 .idea/
 .DS_Store

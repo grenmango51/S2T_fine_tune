@@ -1,3 +1,4 @@
+torch
 transformers
 peft
 accelerate
@@ -9,3 +10,7 @@ tensorboard
 numpy
 pandas
 tqdm
+requests
+python-dotenv
+aiohttp
+pytest
